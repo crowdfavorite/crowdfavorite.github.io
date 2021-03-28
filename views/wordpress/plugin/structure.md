@@ -57,7 +57,7 @@ return [
 
 To retrieve a configuration key the helper method config can be used.
 ```
-$mySetting = config('example.mySettingKey'); // returns mySetting value;
+$mySetting = config('example.mySetting'); // returns myValue;
 ```
 
 Any addition the config folder will be automatically pre-loaded in the container config entity.

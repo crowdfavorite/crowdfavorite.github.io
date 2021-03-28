@@ -1,8 +1,12 @@
 ### Dependency injection
 
-At it's core a container is simply a dependency injection. Binding entities to the container will allow passing them as dependencies in a constructor method.
+At it's core a container is simply a dependency injection. 
+By Binding entities to the container with their related arguments, we can allow passing the arguments as dependencies in a constructor method.
 
 ```
+app()->add(Controller::class)->addArgument(Model::class);
+app()->add(Model::class);
+
 class Controller
 {
     /**

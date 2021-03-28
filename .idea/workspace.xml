@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/dependency.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress/plugin/dependency.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +118,7 @@
       <workItem from="1616870606855" duration="2375000" />
       <workItem from="1616905413420" duration="276000" />
       <workItem from="1616915021030" duration="2814000" />
-      <workItem from="1616936749487" duration="806000" />
+      <workItem from="1616936749487" duration="1153000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 ### Service providers
 
 Service providers are classes which are used to bind entities to the container.
-Service Providers allows the packaging of code or configuration for packages that are reused regularly.
+They allow the packaging of a code or configurations that are reused regularly.
 The bound entities could be services, initiated classes, arrays ... etc ...  
 The entities will be resolved from the container by calling app('entity') or app()->get('entity');
 
@@ -32,13 +32,13 @@ class AnotherServiceProvider extends AppServiceProvider
 
 ```
 
-The services providers declares in an array what it can provide. The provides array lists the keys to retrieve the bound entities.
-In addition it benefit from a register method where the function add bind an entity and its value to the container.
+The service provider 'provides' method declare in an array what it can provide. The 'provides' array lists the keys available in the container.
+In addition it benefit from a register method where the function add binds an entity and its value to the container.
 
 
 #### Examples of bindings
 
-<b>Binding of a class</b>  
+<b>Binding a class</b>  
 
 ```
 namespace Boilerplate\Providers;
@@ -70,7 +70,7 @@ The usage will be
 app('view')->method();
 ```
 
-<b>Binding of a service</b>  
+<b>Binding a service</b>  
 
 ```
 namespace Boilerplate\Providers;

@@ -106,7 +106,7 @@ app(PluginController::class);
     * sass source files
 
 
-\* not be moved or renamed without the modification of the core files.  
-\** not to be moved or renamed without the modification of the Laravel mix config file.
+\* cannot be moved or renamed without the modification of the core files.  
+\** cannot to be moved or renamed without the modification of the Laravel mix config file.
 
 

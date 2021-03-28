@@ -101,8 +101,12 @@ app(PluginController::class);
     * An optional placement for html views.
 
 
+* Resources**
+    * js source files
+    * sass source files
 
-\* not be moved or renamed without the modification of the core files.
 
+\* not be moved or renamed without the modification of the core files.  
+\** not to be moved or renamed without the modification of the Laravel mix config file.
 
 

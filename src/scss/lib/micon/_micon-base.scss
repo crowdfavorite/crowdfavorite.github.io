@@ -1,0 +1,92 @@
+.micon-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.micon {
+    @extend .micon-background;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+
+    &:before {
+        content: "\00a0";
+    }
+}
+
+@mixin micon($icon) {
+
+    .micon-#{$icon} {
+        -webkit-mask-image: url(#{$micon-css-path}/#{$icon}.svg);
+        mask-image: url(#{$micon-css-path}/#{$icon}.svg);
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+        mask-size: cover;
+        -webkit-mask-size: cover;
+        background-color: $black;
+    }
+}
+
+$micon-sizes: (
+    xxs: 0.8rem,
+    xs: 1rem,
+    sm: 1.3rem,
+    md: 1.5rem,
+    lg: 2rem,
+    xl: 3rem,
+    xxl: 5rem,
+) !default;
+
+@each $size, $value in $micon-sizes {
+    .micon-#{$size} {
+        width: $value;
+        height: $value;
+    }
+}
+
+$micon-colors: (
+        "black": $black,
+        "grey": $grey,
+        "red": $red,
+) !default;
+
+@each $color, $value in $micon-colors {
+    .micon-#{$color} {
+        background-color: $value !important;
+    }
+}
+
+.micon-hidden {
+    opacity: 0 !important;
+}
+
+.micon-pointer:not(.micon-disabled) {
+    cursor: pointer;
+}
+
+.micon-loading {
+    /* duration: 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
+    -webkit-animation: container-rotate 1568ms linear infinite;
+    animation: container-rotate 1568ms linear infinite;
+}
+
+[dir=rtl] i.micon-rtl {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+@-webkit-keyframes container-rotate {
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes container-rotate {
+    to {
+        transform: rotate(360deg)
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "nnjeim.github.io",
+  "version": "1.0.0",
+  "description": "<p><img src=\"https://crowdfavstage.wpengine.com/wp-content/uploads/2019/05/logo.png\" width=\"100\"/></p>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development npm run development",
+    "development": "cross-env NODE_ENV=development mix",
+    "watch": "cross-env NODE_ENV=development mix watch",
+    "watch-poll": "cross-env NODE_ENV=development mix watch -- --watch-options-poll=1000",
+    "hot": "cross-env NODE_ENV=development mix watch --hot",
+    "prod": "cross-env NODE_ENV=production npm run production",
+    "production": "cross-env NODE_ENV=production mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnjeim/nnjeim.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnjeim/nnjeim.github.io/issues"
+  },
+  "homepage": "https://github.com/nnjeim/nnjeim.github.io#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.10",
+    "@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.2.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^7.1.2",
+    "cross-env": "^7.0.3",
+    "cssnano": "^4.1.10",
+    "dotenv-webpack": "^7.0.2",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-webpack-plugin": "^2.5.3",
+    "laravel-mix": "^6.0.6",
+    "postcss": "^8.2.8",
+    "raw-loader": "^4.0.2",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.28.0"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.3",
+    "history": "^5.0.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^5.0.3",
+    "react-router-dom": "^6.0.0-beta.0"
+  }
+}

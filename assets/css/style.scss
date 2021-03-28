@@ -1,0 +1,330 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$red: #f12e15;
+$grey: #727272;
+$black: #000000;
+$transition: all 0.5s ease-out;
+$padding: 0.3rem 0.5rem;
+$micon-css-path: "/assets/micons" !default;
+
+body {
+ width: 100vw;
+ overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  margin: 0 auto;
+
+  header {
+    background-color: white;
+    width: 100%;
+    float: inherit;
+    position: fixed;
+    top: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    width: 100%;
+    float: inherit;
+    position: inherit;
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  section {
+    width: 100%;
+    padding-top: 150px;
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: none;
+      grid-column-gap: 1rem;
+      grid-row-gap: 2rem;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+
+      h1 {
+        margin-bottom: 0;
+      }
+
+      .actions {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-left: auto;
+
+        a.action-link {
+          display: flex;
+          align-items: center;
+          color: $grey;
+          padding: $padding;
+          min-width: 3.5rem;
+          text-align: right;
+          font-size: 0.8rem;
+          line-height: 0;
+          transition: $transition;
+
+          &.download {
+            color: $red;
+          }
+
+          &:hover {
+            color: black;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      padding-left: 0.5rem;
+      border-left: 4px solid $red;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.6rem;
+    }
+
+    ul {
+      margin: 0;
+      width: 100%;
+
+      &.menu {
+        padding: 0;
+        list-style: none;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+        width: 100%;
+
+        a {
+          color: $red;
+          background-color: transparent;
+          padding: $padding;
+          padding-left: 0;
+          transition: $transition;
+          width: 100%;
+          white-space: nowrap;
+
+          &:hover {
+            background-color: $red;
+            color: white;
+            padding-left: 0.5rem;
+          }
+        }
+      }
+    }
+
+    a.button {
+      background: transparent;
+      border: 1px solid $red;
+      color: $red;
+      padding: $padding;
+      margin-bottom: 1rem;
+      min-width: 150px;
+
+      &:hover {
+        background: $red;
+        color: white;
+      }
+    }
+
+    a.link {
+      background: transparent;
+      color: $red;
+      padding: $padding;
+      padding-left: 0;
+      margin-bottom: 1rem;
+      min-width: 150px;
+      transition: $transition;
+
+      &:hover {
+        padding-left: 0.5rem;
+        background: $red;
+        color: white;
+      }
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.flex-gap-2 {
+  gap: 2rem;
+}
+
+.items-middle {
+  align-items: center;
+}
+
+.items-center {
+  justify-content: center;
+}
+
+.items-betweeen {
+  justify-content: space-between;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/*-- micon library --*/
+.micon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.micon {
+  @extend .micon-background;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+
+  &:before {
+    content: "\00a0";
+  }
+}
+
+@mixin micon($icon) {
+
+  .micon-#{$icon} {
+    -webkit-mask-image: url(#{$micon-css-path}/#{$icon}.svg);
+    mask-image: url(#{$micon-css-path}/#{$icon}.svg);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    background-color: $black;
+  }
+}
+
+$micon-sizes: (
+        xxs: 0.8rem,
+        xs: 1rem,
+        sm: 1.3rem,
+        md: 1.5rem,
+        lg: 2rem,
+        xl: 3rem,
+        xxl: 5rem,
+) !default;
+
+@each $size, $value in $micon-sizes {
+  .micon-#{$size} {
+    width: $value;
+    height: $value;
+  }
+}
+
+$micon-colors: (
+        black: $black,
+        grey: $grey,
+        red: $red,
+) !default;
+
+@each $color, $value in $micon-colors {
+  .micon-#{$color} {
+    background-color: $value !important;
+  }
+}
+
+.micon-hidden {
+  opacity: 0 !important;
+}
+
+.micon-pointer:not(.micon-disabled) {
+  cursor: pointer;
+}
+
+.micon-loading {
+  /* duration: 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
+  -webkit-animation: container-rotate 1568ms linear infinite;
+  animation: container-rotate 1568ms linear infinite;
+}
+
+[dir=rtl] i.micon-rtl {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@-webkit-keyframes container-rotate {
+  to {
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@keyframes container-rotate {
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@include micon(home);
+@include micon(download);
+@include micon(arrow_forward);
+

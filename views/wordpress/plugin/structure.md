@@ -45,7 +45,7 @@ The boostrap file loads the container, the core helper methods and the core serv
     
 #### Config
 
-The config folder include php files which should return an associative array. 
+The config folder includes php files which should return an associative array. 
 
 ```
 //config/example.php

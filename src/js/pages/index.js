@@ -66,6 +66,12 @@ export default () => (
                 <li>
                   <Link to="/wordpress/plugin/dependency">Dependency injection</Link>
                 </li>
+                <li>
+                  <Link to="/wordpress/plugin/facades">Facades</Link>
+                </li>
+                <li>
+                  <Link to="/wordpress/plugin/logger">Logger</Link>
+                </li>
               </ul>
             </div>
           </div>

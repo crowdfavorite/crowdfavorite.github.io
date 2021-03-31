@@ -5,10 +5,10 @@ import dependency from '@views/wordpress/plugin/dependency.md';
 
 export default () => (
   <>
-    <ActionBar title="Plugin" />
+    <ActionBar title="Plugin" nextUrl="/wordpress/plugin/facades" />
     <div className="parser">
       <ReactMarkdown allowDangerousHtml source={dependency} />
     </div>
-    <ActionBar />
+    <ActionBar nextUrl="/wordpress/plugin/facades" />
   </>
 );

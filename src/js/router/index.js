@@ -16,6 +16,8 @@ import PluginStructure from '@js/pages/wordpress/plugin/structure';
 import PluginBootstrap from '@js/pages/wordpress/plugin/bootstrap';
 import PluginProviders from '@js/pages/wordpress/plugin/providers';
 import PluginDependency from '@js/pages/wordpress/plugin/dependency';
+import PluginFacades from '@js/pages/wordpress/plugin/facades';
+import PluginLogger from '@js/pages/wordpress/plugin/logger';
 
 const routes = [
   {
@@ -78,6 +80,16 @@ const routes = [
     key: 11,
     path: '/wordpress/plugin/dependency',
     component: PluginDependency,
+  },
+  {
+    key: 12,
+    path: '/wordpress/plugin/facades',
+    component: PluginFacades,
+  },
+  {
+    key: 13,
+    path: '/wordpress/plugin/logger',
+    component: PluginLogger,
   },
 ];
 

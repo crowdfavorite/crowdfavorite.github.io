@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/facades.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/wordpress/plugin/facades.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/wordpress/plugin/logger.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/pages/wordpress/plugin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build/images" />
       <recent name="$PROJECT_DIR$/src/js/pages/wordpress/plugin" />
       <recent name="$PROJECT_DIR$/views/wordpress/plugin" />
       <recent name="$PROJECT_DIR$/src/js/components/toolbar/partials" />
       <recent name="$PROJECT_DIR$/src/js/components" />
-      <recent name="$PROJECT_DIR$/src/js/router/patterns/home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/js/components/toolbar/partials" />
@@ -125,7 +117,8 @@
       <workItem from="1616915021030" duration="2814000" />
       <workItem from="1616936749487" duration="2141000" />
       <workItem from="1617178926300" duration="605000" />
-      <workItem from="1617204811660" duration="3484000" />
+      <workItem from="1617204811660" duration="3716000" />
+      <workItem from="1617214057004" duration="117000" />
     </task>
     <servers />
   </component>

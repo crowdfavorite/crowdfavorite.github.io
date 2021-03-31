@@ -105,6 +105,7 @@ app(PluginController::class);
     * js source files
     * sass source files
 
+<img src="/build/images/boilerplate.png" alt="boilerplate" />
 
 \* cannot be moved or renamed without the modification of the core files.  
 \** cannot to be moved or renamed without the modification of the Laravel mix config file.

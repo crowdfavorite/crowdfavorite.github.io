@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" afterDir="false" />
-    </list>
+    <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +115,7 @@
       <workItem from="1616936749487" duration="2141000" />
       <workItem from="1617178926300" duration="605000" />
       <workItem from="1617204811660" duration="3716000" />
-      <workItem from="1617214057004" duration="117000" />
+      <workItem from="1617214057004" duration="794000" />
     </task>
     <servers />
   </component>

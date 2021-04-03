@@ -18,89 +18,146 @@ import PluginProviders from '@js/pages/wordpress/plugin/providers';
 import PluginDependency from '@js/pages/wordpress/plugin/dependency';
 import PluginFacades from '@js/pages/wordpress/plugin/facades';
 import PluginLogger from '@js/pages/wordpress/plugin/logger';
+import LaravelWebRoutes from '@js/pages/laravel/web/routes';
+import LaravelWebControllers from '@js/pages/laravel/web/controllers';
+import LaravelWebViews from '@js/pages/laravel/web/views';
+import LaravelWebAssets from '@js/pages/laravel/web/assets';
+import LaravelApiRoutes from '@js/pages/laravel/api/routes';
+import LaravelApiControllers from '@js/pages/laravel/api/controllers';
+import LaravelApiRequest from '@js/pages/laravel/api/request';
+import LaravelApiActions from '@js/pages/laravel/api/actions';
+import LaravelRequirement from '@js/pages/laravel/development/requirement';
+import LaravelGuidance from '@js/pages/laravel/production/guidance';
+import CodePhpStan from '@js/pages/code/quality/phpstan';
+import CodePhpCsFixer from '@js/pages/code/style/phpcsfixer';
+import CodePhpCodeSniffer from '@js/pages/code/style/phpcodesniffer';
 
 const routes = [
   {
-    key: 0,
     exact: true,
     path: '/',
     component: Home,
   },
   {
-    key: 1,
     path: '/patterns/invoker/introduction',
     component: InvokableIntroduction,
   },
   {
-    key: 2,
     path: '/patterns/invoker/invokable',
     component: InvokableClasses,
   },
   {
-    key: 3,
     path: '/patterns/builder/introduction',
     component: BuilderIntroduction,
   },
   {
-    key: 4,
     path: '/patterns/builder/builder',
     component: BuilderClasses,
   },
   {
-    key: 5,
     path: '/patterns/factory/introduction',
     component: FactoryIntroduction,
   },
   {
-    key: 6,
     path: '/patterns/factory/factory',
     component: FactoryClasses,
   },
   {
-    key: 7,
     path: '/wordpress/plugin/introduction',
     component: PluginIntroduction,
   },
   {
-    key: 8,
     path: '/wordpress/plugin/structure',
     component: PluginStructure,
   },
   {
-    key: 9,
     path: '/wordpress/plugin/bootstrap',
     component: PluginBootstrap,
   },
   {
-    key: 10,
     path: '/wordpress/plugin/providers',
     component: PluginProviders,
   },
   {
-    key: 11,
     path: '/wordpress/plugin/dependency',
     component: PluginDependency,
   },
   {
-    key: 12,
     path: '/wordpress/plugin/facades',
     component: PluginFacades,
   },
   {
-    key: 13,
     path: '/wordpress/plugin/logger',
     component: PluginLogger,
   },
+  {
+    path: '/laravel/web/routes',
+    component: LaravelWebRoutes,
+  },
+  {
+    path: '/laravel/web/controllers',
+    component: LaravelWebControllers,
+  },
+  {
+    path: '/laravel/web/views',
+    component: LaravelWebViews,
+  },
+  {
+    path: '/laravel/web/assets',
+    component: LaravelWebAssets,
+  },
+  {
+    path: '/laravel/api/routes',
+    component: LaravelApiRoutes,
+  },
+  {
+    path: '/laravel/api/controllers',
+    component: LaravelApiControllers,
+  },
+  {
+    path: '/laravel/api/request',
+    component: LaravelApiRequest,
+  },
+  {
+    path: '/laravel/api/actions',
+    component: LaravelApiActions,
+  },
+  {
+    path: '/laravel/development/requirement',
+    component: LaravelRequirement,
+  },
+  {
+    path: '/laravel/production/guidance',
+    component: LaravelGuidance,
+  },
+  {
+    path: '/code/quality/phpstan',
+    component: CodePhpStan,
+  },
+  {
+    path: '/code/style/phpcsfixer',
+    component: CodePhpCsFixer,
+  },
+  {
+    path: '/code/style/phpcodesniffer',
+    component: CodePhpCodeSniffer,
+  },
 ];
 
-const routeComponents = routes.map((route) => (
-  <Route
-    key={route.key}
-    exact={route.exact}
-    path={route.path}
-    element={<route.component />}
-  />
-));
+const routeComponents = routes
+  .map((route, index) => {
+  // eslint-disable-next-line no-param-reassign
+    route.key = index;
+    return route;
+  })
+  .map((route) => (
+    <Route
+      key={route.key}
+      exact={route.exact}
+      path={route.path}
+      element={<route.component />}
+    />
+  ));
 
 export default () => (
   <Router>

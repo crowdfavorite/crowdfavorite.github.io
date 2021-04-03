@@ -1,0 +1,17 @@
+includes:
+	- ./vendor/nunomaduro/larastan/extension.neon
+parameters:
+	paths:
+		- app
+	level: 5
+	checkMissingIterableValueType: false
+	checkGenericClassInNonGenericObjectType: false
+	reportUnmatchedIgnoredErrors: false
+	ignoreErrors:
+		- '#Unsafe usage of new static#'
+		-
+			message: '#Method App\\Http\\Middleware\\RedirectIfAuthenticated\:\:handle\(\) has no return typehint specified#'
+			path: app\Http\Middleware\RedirectIfAuthenticated.php
+		-
+			message: '#Method App\\Http\\Middleware\\Authenticate\:\:redirectTo\(\) should return string\|null but return statement is missing#'
+			path: app\Http\Middleware\Authenticate.php

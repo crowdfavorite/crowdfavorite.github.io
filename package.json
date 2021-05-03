@@ -9,6 +9,7 @@
     "watch": "cross-env NODE_ENV=development mix watch",
     "watch-poll": "cross-env NODE_ENV=development mix watch -- --watch-options-poll=1000",
     "hot": "cross-env NODE_ENV=development mix watch --hot",
+    "build": "cross-env NODE_ENV=production npm run production",
     "prod": "cross-env NODE_ENV=production npm run production",
     "production": "cross-env NODE_ENV=production mix --production"
   },

@@ -7,7 +7,7 @@ import { Breadcrumb } from '@primer/components';
 export default () => (
   <>
     <ActionBar title="Plugin" />
-    <Breadcrumb>
+    <Breadcrumb style={{ marginBottom: '2rem' }}>
       <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
       <Breadcrumb.Item href="#/wordpress/plugin/logger">Logger</Breadcrumb.Item>
       <Breadcrumb.Item href="#/wordpress/plugin/logger" selected>Introduction</Breadcrumb.Item>

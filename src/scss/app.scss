@@ -173,6 +173,25 @@ body {
         color: white;
       }
     }
+
+    table {
+      font-family: Roboto;
+      font-size: 0.9rem;
+      font-weight: 300;
+      border-collapse: collapse;
+      thead {
+        td {
+          padding: 0.3rem 0.5rem;
+          border-bottom: 1px solid $grey;
+        }
+      }
+      tbody {
+        td {
+          padding: 0.3rem 0.5rem;
+          border-bottom: 1px solid $light-grey;
+        }
+      }
+    }
   }
 }
 

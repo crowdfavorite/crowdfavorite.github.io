@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import ActionBar from '@js/components/actionBar/index.jsx';
-import logger from '@views/wordpress/plugin/logger.md';
+import ActionBar from '@js/components/actionBar';
+import logger from '@views/wordpress/plugin/logger/index.md';
 
 export default () => (
   <>

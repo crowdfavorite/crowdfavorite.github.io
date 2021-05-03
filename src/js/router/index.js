@@ -4,6 +4,7 @@ import {
   Route,
 } from 'react-router-dom';
 import React from 'react';
+import { ThemeProvider } from '@primer/components';
 import Home from '@js/pages';
 import InvokableIntroduction from '@js/pages/patterns/invoker/introduction';
 import InvokableClasses from '@js/pages/patterns/invoker/invokable';
@@ -17,7 +18,8 @@ import PluginBootstrap from '@js/pages/wordpress/plugin/bootstrap';
 import PluginProviders from '@js/pages/wordpress/plugin/providers';
 import PluginDependency from '@js/pages/wordpress/plugin/dependency';
 import PluginFacades from '@js/pages/wordpress/plugin/facades';
-import PluginLogger from '@js/pages/wordpress/plugin/logger';
+import PluginLogger from '@js/pages/wordpress/plugin/logger/index';
+import PluginLoggerIntroduction from '@js/pages/wordpress/plugin/logger/introduction';
 import LaravelWebRoutes from '@js/pages/laravel/web/routes';
 import LaravelWebControllers from '@js/pages/laravel/web/controllers';
 import LaravelWebViews from '@js/pages/laravel/web/views';
@@ -89,6 +91,12 @@ const routes = [
   {
     path: '/wordpress/plugin/logger',
     component: PluginLogger,
+    children: [
+      {
+        path: '/wordpress/plugin/logger/introduction',
+        component: PluginLoggerIntroduction,
+      },
+    ],
   },
   {
     path: '/laravel/web/routes',
@@ -150,19 +158,45 @@ const routeComponents = routes
     route.key = index;
     return route;
   })
-  .map((route) => (
-    <Route
-      key={route.key}
-      exact={route.exact}
-      path={route.path}
-      element={<route.component />}
-    />
-  ));
+  .map((route) => {
+    if (route.children === undefined) {
+      return (
+        <Route
+          key={route.key}
+          exact={route.exact}
+          path={route.path}
+          element={<route.component />}
+        />
+      );
+    }
+    return (
+      <Route>
+        <Route
+          key={route.key}
+          exact={route.exact}
+          path={route.path}
+          element={<route.component />}
+        />
+        {
+          route.children.map((child) => (
+            <Route
+              key={child.key}
+              exact={child.exact}
+              path={child.path}
+              element={<child.component />}
+            />
+          ))
+        }
+      </Route>
+    );
+  });
 
 export default () => (
-  <Router>
-    <Routes>
-      {routeComponents}
-    </Routes>
-  </Router>
+  <ThemeProvider>
+    <Router>
+      <Routes>
+        {routeComponents}
+      </Routes>
+    </Router>
+  </ThemeProvider>
 );

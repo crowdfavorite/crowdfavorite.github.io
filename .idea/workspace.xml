@@ -2,10 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/app.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/manifest.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/vendor.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/vendor.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/code/quality/phpstan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/quality/phpstan.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/code/style/phpcodesniffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/style/phpcodesniffer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/code/style/phpcsfixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/style/phpcsfixer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/development/requirement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/development/requirement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/production/guidance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/production/guidance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/views.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/builder/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/builder/introduction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/factory/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/factory/introduction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/invoker/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/invoker/introduction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/facades.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/facades.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/introduction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/introduction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/providers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/providers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/structure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/structure.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +163,7 @@
       <workItem from="1617417721319" duration="12197000" />
       <workItem from="1617449647663" duration="2625000" />
       <workItem from="1618115135191" duration="6608000" />
-      <workItem from="1620009775627" duration="13515000" />
+      <workItem from="1620009775627" duration="15287000" />
     </task>
     <servers />
   </component>

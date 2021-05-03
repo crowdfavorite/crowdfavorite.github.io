@@ -1,5 +1,7 @@
+/* eslint-disable react/no-children-prop */
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar/index.jsx';
 import phpstan from '@views/code/quality/phpstan.md';
 import { Breadcrumb } from '@primer/components';
@@ -12,7 +14,7 @@ export default () => (
       <Breadcrumb.Item href="#/code/quality/phpstan" selected>PhpStan</Breadcrumb.Item>
     </Breadcrumb>
     <div className="parser">
-      <ReactMarkdown allowDangerousHtml source={phpstan} />
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} children={phpstan} />
     </div>
     <ActionBar />
   </>

@@ -1,5 +1,7 @@
+/* eslint-disable react/no-children-prop */
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar/index.jsx';
 import dependency from '@views/wordpress/plugin/dependency.md';
 import { Breadcrumb } from '@primer/components';
@@ -12,7 +14,7 @@ export default () => (
       <Breadcrumb.Item href="#/wordpress/plugin/dependency" selected>Dependency</Breadcrumb.Item>
     </Breadcrumb>
     <div className="parser">
-      <ReactMarkdown allowDangerousHtml source={dependency} />
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} children={dependency} />
     </div>
     <ActionBar nextUrl="/wordpress/plugin/facades" />
   </>

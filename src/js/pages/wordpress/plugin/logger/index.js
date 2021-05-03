@@ -1,5 +1,7 @@
+/* eslint-disable react/no-children-prop */
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
 import logger from '@views/wordpress/plugin/logger/index.md';
 import { Breadcrumb } from '@primer/components';
@@ -12,7 +14,7 @@ export default () => (
       <Breadcrumb.Item href="#/wordpress/plugin/logger" selected>Logger</Breadcrumb.Item>
     </Breadcrumb>
     <div className="parser">
-      <ReactMarkdown allowDangerousHtml source={logger} />
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} children={logger} />
     </div>
     <ActionBar />
   </>

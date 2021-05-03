@@ -1,5 +1,7 @@
+/* eslint-disable react/no-children-prop */
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar/index.jsx';
 import structure from '@views/wordpress/plugin/structure.md';
 import { Breadcrumb } from '@primer/components';
@@ -12,7 +14,7 @@ export default () => (
       <Breadcrumb.Item href="#/wordpress/plugin/structure" selected>Structure</Breadcrumb.Item>
     </Breadcrumb>
     <div className="parser">
-      <ReactMarkdown allowDangerousHtml source={structure} />
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} children={structure} />
     </div>
     <ActionBar nextUrl="/wordpress/plugin/bootstrap" />
   </>

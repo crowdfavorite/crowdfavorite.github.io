@@ -80,3 +80,26 @@ The registration in the log file will be
 ```
 2021-03-31 16:25 > INFO > some message {"logger":"MyClass"}
 ```
+
+The configuration file of the logger is at:
+
+```
+//Core > Config > log.php
+
+[
+	'defaultChannel' => 'console',
+	'channels' => [
+		'file' => [
+			'dateFormat' => "Y-m-d H:i:s",
+			'output' => "%datetime% > %level_name% > %message% %context% %extra%\n",
+		],
+		'slack' => [
+			'dateFormat' => "Y-m-d H:i:s",
+			'output' => "%datetime% > %level_name% > %message% %context% %extra%\n",
+			'token' => 'xoxb-2883774866-2012686074454-laeDke1lOzZIA2J59FdTiUtv',
+			'channel' => '#wordpressbot',
+			'bot' => 'wpbot',
+		]
+	],
+]
+```

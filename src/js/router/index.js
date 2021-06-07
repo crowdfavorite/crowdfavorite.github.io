@@ -20,6 +20,7 @@ import PluginDependency from '@js/pages/wordpress/plugin/dependency';
 import PluginFacades from '@js/pages/wordpress/plugin/facades';
 import PluginLogger from '@js/pages/wordpress/plugin/logger/index';
 import PluginLoggerIntroduction from '@js/pages/wordpress/plugin/logger/introduction';
+import PluginLoggerChannels from '@js/pages/wordpress/plugin/logger/channels';
 import LaravelWebRoutes from '@js/pages/laravel/web/routes';
 import LaravelWebControllers from '@js/pages/laravel/web/controllers';
 import LaravelWebViews from '@js/pages/laravel/web/views';
@@ -95,6 +96,10 @@ const routes = [
       {
         path: '/wordpress/plugin/logger/introduction',
         component: PluginLoggerIntroduction,
+      },
+      {
+        path: '/wordpress/plugin/logger/channels',
+        component: PluginLoggerChannels,
       },
     ],
   },

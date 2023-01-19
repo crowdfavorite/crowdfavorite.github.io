@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 import {
   HashRouter as Router,
   Routes,
@@ -196,12 +197,14 @@ const routeComponents = routes
     );
   });
 
-export default () => (
-  <ThemeProvider>
-    <Router>
-      <Routes>
-        {routeComponents}
-      </Routes>
-    </Router>
-  </ThemeProvider>
-);
+export default function () {
+  return (
+    <ThemeProvider>
+      <Router>
+        <Routes>
+          {routeComponents}
+        </Routes>
+      </Router>
+    </ThemeProvider>
+  );
+}

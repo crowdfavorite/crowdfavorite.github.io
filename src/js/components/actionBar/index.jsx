@@ -4,24 +4,26 @@ import Title from './partials/title.jsx';
 import DownloadLink from './partials/downloadLink.jsx';
 import MiconLink from './partials/miconLink.jsx';
 
-const Index = ({
+function Index({
   title, downloadUrl, downloadFile, nextUrl,
-}) => (
-  <div className="action-bar">
-    { title
-      ? <Title title={title} />
-      : null }
-    <div className="actions">
-      { (downloadUrl && downloadFile)
-        ? <DownloadLink downloadUrl={downloadUrl} downloadFile={downloadFile} />
+}) {
+  return (
+    <div className="action-bar">
+      { title
+        ? <Title title={title} />
         : null }
-      <MiconLink label="Home" url="/" icon="home" />
-      { nextUrl
-        ? <MiconLink label="Next" url={nextUrl} icon="arrow_forward" />
-        : null }
+      <div className="actions">
+        { (downloadUrl && downloadFile)
+          ? <DownloadLink downloadUrl={downloadUrl} downloadFile={downloadFile} />
+          : null }
+        <MiconLink label="Home" url="/" icon="home" />
+        { nextUrl
+          ? <MiconLink label="Next" url={nextUrl} icon="arrow_forward" />
+          : null }
+      </div>
     </div>
-  </div>
-);
+  );
+}
 
 Index.defaultProps = {
   title: null,

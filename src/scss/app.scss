@@ -1,48 +1,53 @@
-@import "./lib/boot";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 @import "./lib/colors";
 @import "./lib/variables";
 @import "./lib/typography";
-@import "./lib/spacing";
-@import "./lib/flexbox";
 /*-- micon library --*/
 @import "./lib/micon/micon";
 
 body {
-  width: 100vw;
-  overflow-x: hidden;
+    @apply
+    overflow-x-hidden
+    w-screen;
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 1024px;
-  margin: 0 auto;
+    @apply
+    container
+    flex
+    flex-col
+    mx-auto;
 
   header {
-    background-color: white;
-    width: 100%;
-    float: inherit;
-    position: fixed;
-    top: 0;
-    -webkit-font-smoothing: subpixel-antialiased;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+      @apply
+      subpixel-antialiased
+      bg-white
+      fixed
+      flex
+      float-none
+      justify-between
+      mb-5
+      top-0
+      w-full;
   }
 
   footer {
-    width: 100%;
-    float: inherit;
-    position: inherit;
-    -webkit-font-smoothing: subpixel-antialiased;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+      @apply
+      block
+      flex
+      float-none
+      justify-between
+      mt-5
+      subpixel-antialiased
+      w-full;
   }
 
   section {
-    width: 100%;
-    padding-top: 150px;
+      @apply
+      w-full
+      pt-36;
 
     .grid-col-3 {
       display: grid;
@@ -61,29 +66,34 @@ body {
     }
 
     h2 {
-      color: $red;
+      @apply
+        text-cf-base;
     }
 
     .action-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
+        @apply
+        flex
+        items-center
+        justify-between
+        mb-8;
+
 
       h1 {
-        margin: 0;
+        @apply m-0;
       }
 
       .actions {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        margin-left: auto;
+          @apply
+          flex
+          items-center
+          gap-2
+          ml-auto;
 
         a.action-link {
-          display: flex;
-          align-items: center;
-          color: $grey;
+            @apply
+            flex
+            items-center
+            text-cf-gray;
           padding: $padding;
           min-width: 3.5rem;
           text-align: right;
@@ -92,34 +102,36 @@ body {
           transition: $transition;
 
           .action-label {
-            margin-left: 0.3rem;
+            @apply ml-1.5;
           }
 
           &.download {
-            color: $red;
+            @apply text-cf-base;
           }
 
           &:hover {
-            color: black;
-            font-weight: normal;
+              @apply
+              text-black
+              font-normal;
           }
         }
       }
     }
 
     .parser {
-      margin-bottom: 2rem;
+      @apply mb-8;
     }
 
     ul {
-      margin: 0;
-      width: 100%;
+        @apply
+        m-0
+        w-full;
 
       &.menu {
-        padding-left: 1.2rem;
-        color: $black;
-        list-style-type: square;
-        color: $red;
+          @apply
+          list-square
+          pl-6
+          text-cf-base;
       }
 
       li {

@@ -182,7 +182,7 @@ body {
   display: flex;
 }
 
-.flex-column {
+.flex-col {
   flex-direction: column;
 }
 
@@ -190,15 +190,15 @@ body {
   flex-wrap: wrap;
 }
 
-.flex-one {
+.flex-1 {
   flex: 1;
 }
 
-.flex-gap-2 {
+.gap-8 {
   gap: 2rem;
 }
 
-.items-middle {
+.items-center {
   align-items: center;
 }
 
@@ -206,7 +206,7 @@ body {
   justify-content: center;
 }
 
-.items-betweeen {
+.justify-between {
   justify-content: space-between;
 }
 

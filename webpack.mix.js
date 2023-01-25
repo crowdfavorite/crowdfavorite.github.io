@@ -5,6 +5,7 @@ const path = require('path');
 const purgecss = require('@fullhuman/postcss-purgecss');
 const cssnano = require('cssnano');
 const autoprefixer = require('autoprefixer');
+const tailwindcss = require('tailwindcss');
 
 const jsEntries = [];
 const scssEntries = [];
@@ -37,6 +38,9 @@ fs.readdirSync(path.join(__dirname, paths.src.scss)).forEach((file) => {
 
 const options = {
   processCssUrls: false,
+  postCss: [
+    tailwindcss('./tailwind.config.js'),
+  ],
 };
 
 if (mix.inProduction()) {
@@ -62,7 +66,8 @@ mix.webpackConfig(webpackConfig);
 
 mix.setPublicPath('build');
 
-mix.js('src/js/index.js', 'js/')
+mix
+  .js('src/js/index.js', 'js/')
   .sass('src/scss/app.scss', 'css/')
   .options(options)
   .extract(['react', 'react-dom', 'react-router', 'react-router-dom', 'react-markdown'])

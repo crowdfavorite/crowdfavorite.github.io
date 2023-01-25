@@ -8,7 +8,7 @@ export default function () {
       <div className="grid-col-3">
         <div>
           <h1>Design patterns</h1>
-          <div className="flex flex-column flex-one flex-gap-1">
+          <div className="flex flex-col flex-1 gap-4">
             <div>
               <h3>The invoker</h3>
               <ul className="menu">
@@ -46,7 +46,7 @@ export default function () {
         </div>
         <div>
           <h1>Wordpress</h1>
-          <div className="flex flex-column flex-one">
+          <div className="flex flex-col flex-1">
             <div>
               <h3>Plugin in a container</h3>
               <ul className="menu">
@@ -77,7 +77,7 @@ export default function () {
         </div>
         <div>
           <h1>Laravel boilerplate</h1>
-          <div className="flex flex-column">
+          <div className="flex flex-col">
             <h3>Architecture</h3>
             <div className="grid-col-2">
               <div>

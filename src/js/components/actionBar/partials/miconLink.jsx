@@ -1,8 +1,9 @@
+/* eslint-disable func-names */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-function MiconLink({
+const MiconLink = function ({
   label, url, icon, size,
 }) {
   return (
@@ -14,7 +15,7 @@ function MiconLink({
       { label ? <span className="action-label">{label}</span> : null }
     </Link>
   );
-}
+};
 
 MiconLink.defaultProps = {
   label: null,

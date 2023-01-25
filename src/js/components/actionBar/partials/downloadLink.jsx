@@ -1,7 +1,8 @@
+/* eslint-disable func-names */
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function DownloadLink({ downloadUrl, downloadFile }) {
+const DownloadLink = function ({ downloadUrl, downloadFile }) {
   return (
     <a
       className="action-link download"
@@ -12,7 +13,7 @@ function DownloadLink({ downloadUrl, downloadFile }) {
       <span className="action-label">Download the code</span>
     </a>
   );
-}
+};
 
 DownloadLink.propTypes = {
   downloadUrl: PropTypes.string.isRequired,

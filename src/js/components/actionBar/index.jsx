@@ -1,10 +1,11 @@
+/* eslint-disable func-names */
 import React from 'react';
 import PropTypes from 'prop-types';
 import Title from './partials/title.jsx';
 import DownloadLink from './partials/downloadLink.jsx';
 import MiconLink from './partials/miconLink.jsx';
 
-function Index({
+const Index = function ({
   title, downloadUrl, downloadFile, nextUrl,
 }) {
   return (
@@ -23,7 +24,7 @@ function Index({
       </div>
     </div>
   );
-}
+};
 
 Index.defaultProps = {
   title: null,

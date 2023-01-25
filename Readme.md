@@ -1,4 +1,4 @@
-<p><img src="https://crowdfavstage.wpengine.com/wp-content/uploads/2019/05/logo.png" width="100"/></p>
+<p><img src="https://crowdfavorite.com/wp-content/uploads/2018/11/CFlogo_lg_red_stacked.png" width="100"/></p>
 
 ### Features
 - Laravel mix setup

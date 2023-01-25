@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/channels.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/wordpress/plugin/logger/channels.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/manifest.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/logger/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress/plugin/logger/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/logger/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress/plugin/logger/introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/partials/downloadLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/downloadLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/partials/miconLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/miconLink.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/partials/title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/title.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +39,8 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1pVATqZ1ITgM3UycrFwVvjhhG7d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -62,36 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="JavaScriptPreferStrict" value="false" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/wordpress/plugin/logger" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.jscs" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.jscs" value="$PROJECT_DIR$/../../../../lib/node_modules/jscs" />
-    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/../../../../lib/node_modules/eslint" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$PROJECT_DIR$/../../../../bin/node" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.webpack" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/nnjeim/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/223.8214.64/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views/wordpress/plugin/logger" />

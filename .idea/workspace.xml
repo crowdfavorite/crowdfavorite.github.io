@@ -11,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/build/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/lib/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lib/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/lib/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lib/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/lib/_variables.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

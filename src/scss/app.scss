@@ -1,8 +1,6 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import "./lib/colors";
-@import "./lib/variables";
 @import "./lib/typography";
 @import "./lib/micon/micon";
 
@@ -54,7 +52,6 @@ body {
       grid-cols-3
       gap-x-4
       gap-y-8;
-      grid-template-rows: none;
     }
 
     .grid-col-2 {
@@ -63,12 +60,6 @@ body {
       grid-cols-2
       gap-x-4
       gap-y-8;
-      grid-template-rows: none;
-    }
-
-    h2 {
-      @apply
-        text-cf-base;
     }
 
     .action-bar {
@@ -77,7 +68,6 @@ body {
         items-center
         justify-between
         mb-8;
-
 
       h1 {
         @apply m-0;
@@ -96,14 +86,13 @@ body {
             items-center
             text-cf-gray
             text-right
+            text-sm
             transition
             duration-500
             ease-out
             min-w-[3.5rem]
             px-1
             py-2;
-          font-size: 0.8rem;
-          line-height: 0;
 
           .action-label {
             @apply ml-1.5;
@@ -159,8 +148,8 @@ body {
 
           &:hover {
             @apply
-            text-cf-base;
-            letter-spacing: 0.25px;
+            text-cf-base
+            tracking-wider;
           }
         }
       }
@@ -206,20 +195,27 @@ body {
     }
 
     table {
-      font-family: RobotoCondensed, Roboto;
-      font-size: 0.9rem;
-      font-weight: 300;
-      border-collapse: collapse;
+        font-family: RobotoCondensed, Roboto;
+        @apply
+        border-collapse
+        font-light
+        text-sm;
+
       thead {
         td {
-          padding: 0.3rem 0.5rem;
-          border-bottom: 1px solid $grey;
+          @apply
+          px-1
+          py-2
+          border-b-gray-300;
         }
       }
+
       tbody {
         td {
-          padding: 0.3rem 0.5rem;
-          border-bottom: 1px solid $light-grey;
+            @apply
+            px-1
+            py-2
+            border-b-gray-200;
         }
       }
     }

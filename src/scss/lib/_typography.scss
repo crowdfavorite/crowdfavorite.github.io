@@ -38,7 +38,7 @@ h4 {
 p, a {
     @apply
     text-base
-    leading-6;
+    leading-8;
 }
 
 h1, h2, h3, h4, p, li, a {
@@ -47,9 +47,15 @@ h1, h2, h3, h4, p, li, a {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+pre {
     @apply
     bg-gray-100
-    my-8
-    text-xs;
+    p-4;
+
+    code {
+        @apply
+        bg-gray-100
+        my-8
+        text-xs;
+    }
 }

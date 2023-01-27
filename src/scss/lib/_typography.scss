@@ -43,13 +43,14 @@ p, a {
 
 h1, h2, h3, h4, p, li, a {
   font-family: RobotoCondensed, Roboto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply
+  subpixel-antialiased;
 }
 
 pre {
     @apply
     bg-gray-100
+    my-4
     p-4;
 
     code {

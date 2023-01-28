@@ -674,7 +674,7 @@ select {
   gap: 1rem;
 }.align-middle {
   vertical-align: middle;
-}@font-face{font-family:"RobotoCondensed";font-style:normal;src:local("RobotoCondensed"),url(../js/da87a0999acc0784c355.ttf) format("truetype")}h1 {
+}h1 {
   margin-bottom: 0.75rem;
   border-left-width: 4px;
   --tw-border-opacity: 1;
@@ -705,7 +705,7 @@ select {
 }p,a {
   font-size: 1rem;
   line-height: 2rem;
-}h1,h2,h3,h4,p,li,a{font-family:RobotoCondensed,Roboto;--tw-text-opacity: 1;color: rgb(75 85 99 / var(--tw-text-opacity));-webkit-font-smoothing: auto;-moz-osx-font-smoothing: auto}pre {
+}h1,h2,h3,h4,p,li,a{font-family:"Roboto Condensed",Roboto;--tw-text-opacity: 1;color: rgb(75 85 99 / var(--tw-text-opacity));-webkit-font-smoothing: auto;-moz-osx-font-smoothing: auto}pre {
   margin-top: 1rem;
   margin-bottom: 1rem;
   --tw-bg-opacity: 1;

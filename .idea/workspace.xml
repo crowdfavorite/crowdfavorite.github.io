@@ -5,84 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/css/fonts/RobotoCondensed-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/da87a0999acc0784c355.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/homeLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/nextLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/micons/arrow_back.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/micons/arrow_right.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/micons/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/micons/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/arrow_back.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/arrow_forward.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/chevron_left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/chevron_right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/download.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/expand_less.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/expand_more.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/micons/home.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/app.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/images/boilerplate.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/boilerplate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/manifest.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/fonts/RobotoCondensed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/da87a0999acc0784c355.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/partials/downloadLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/downloadLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/partials/miconLink.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/partials/title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/code/quality/phpstan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/quality/phpstan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/code/style/phpcodesniffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/style/phpcodesniffer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/code/style/phpcsfixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/style/phpcsfixer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/development/requirement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/development/requirement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/production/guidance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/production/guidance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/assets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/views.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/builder/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/builder/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/factory/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/factory/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/invoker/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/invoker/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/facades.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/facades.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/channels.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/channels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/providers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/providers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/structure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/structure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/lib/micon/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lib/micon/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/lib/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lib/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +50,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="issue-xxx/xxxx" />
-                    <option name="lastUsedInstant" value="1674885161" />
+                    <option name="branchName" value="issue-12/conversion_webpack" />
+                    <option name="lastUsedInstant" value="1674928228" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="gh-pages" />

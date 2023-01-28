@@ -12,7 +12,7 @@ export default function () {
     <>
       <ActionBar title="Plugin" />
       <Breadcrumb style={{ marginBottom: '2rem' }}>
-        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
         <Breadcrumb.Item href="#/wordpress/plugin/logger">Logger</Breadcrumb.Item>
         <Breadcrumb.Item href="#/wordpress/plugin/logger" selected>Introduction</Breadcrumb.Item>
       </Breadcrumb>

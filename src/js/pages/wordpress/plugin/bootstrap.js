@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
-import ActionBar from '@js/components/actionBar/index.jsx';
+import ActionBar from '@js/components/actionBar';
 import bootstrap from '@views/wordpress/plugin/bootstrap.md';
 import { Breadcrumb } from '@primer/components';
 
@@ -12,7 +12,7 @@ export default function () {
     <>
       <ActionBar title="Plugin" nextUrl="/wordpress/plugin/providers" />
       <Breadcrumb style={{ marginBottom: '2rem' }}>
-        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
         <Breadcrumb.Item href="#/wordpress/plugin/bootstrap" selected>Bootstrap</Breadcrumb.Item>
       </Breadcrumb>
       <div className="parser">

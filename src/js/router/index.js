@@ -1,4 +1,5 @@
 /* eslint-disable func-names */
+/* eslint-disable react/no-array-index-key */
 import {
   HashRouter as Router,
   Routes,
@@ -38,132 +39,155 @@ import CodePhpCodeSniffer from '@js/pages/code/style/phpcodesniffer';
 
 const routes = [
   {
+    key: 'home',
     exact: true,
     path: '/',
     component: Home,
   },
   {
+    key: 'invokable_introduction',
     path: '/patterns/invoker/introduction',
     component: InvokableIntroduction,
   },
   {
+    key: 'invokable_classes',
     path: '/patterns/invoker/invokable',
     component: InvokableClasses,
   },
   {
+    key: 'builder_introduction',
     path: '/patterns/builder/introduction',
     component: BuilderIntroduction,
   },
   {
+    key: 'builder_classes',
     path: '/patterns/builder/builder',
     component: BuilderClasses,
   },
   {
+    key: 'factory_introduction',
     path: '/patterns/factory/introduction',
     component: FactoryIntroduction,
   },
   {
+    key: 'factory_classes',
     path: '/patterns/factory/factory',
     component: FactoryClasses,
   },
   {
+    key: 'plugin_introduction',
     path: '/wordpress/plugin/introduction',
     component: PluginIntroduction,
   },
   {
+    key: 'plugin_structure',
     path: '/wordpress/plugin/structure',
     component: PluginStructure,
   },
   {
+    key: 'plugin_bootstrap',
     path: '/wordpress/plugin/bootstrap',
     component: PluginBootstrap,
   },
   {
+    key: 'plugin_providers',
     path: '/wordpress/plugin/providers',
     component: PluginProviders,
   },
   {
+    key: 'plugin_dependency',
     path: '/wordpress/plugin/dependency',
     component: PluginDependency,
   },
   {
+    key: 'plugin_facades',
     path: '/wordpress/plugin/facades',
     component: PluginFacades,
   },
   {
+    key: 'plugin_logger',
     path: '/wordpress/plugin/logger',
     component: PluginLogger,
     children: [
       {
+        key: 'plugin_logger_introduction',
         path: '/wordpress/plugin/logger/introduction',
         component: PluginLoggerIntroduction,
       },
       {
+        key: 'plugin_logger_channels',
         path: '/wordpress/plugin/logger/channels',
         component: PluginLoggerChannels,
       },
     ],
   },
   {
+    key: 'laravel_web_routes',
     path: '/laravel/web/routes',
     component: LaravelWebRoutes,
   },
   {
+    key: 'laravel_web_controllers',
     path: '/laravel/web/controllers',
     component: LaravelWebControllers,
   },
   {
+    key: 'laravel_web_views',
     path: '/laravel/web/views',
     component: LaravelWebViews,
   },
   {
+    key: 'laravel_web_assets',
     path: '/laravel/web/assets',
     component: LaravelWebAssets,
   },
   {
+    key: 'laravel_api_routes',
     path: '/laravel/api/routes',
     component: LaravelApiRoutes,
   },
   {
-    path: '/laravel/api/controllers',
+    key: 'laravel_api_controllers',
     component: LaravelApiControllers,
   },
   {
+    key: 'laravel_api_request',
     path: '/laravel/api/request',
     component: LaravelApiRequest,
   },
   {
+    key: 'laravel_api_actions',
     path: '/laravel/api/actions',
     component: LaravelApiActions,
   },
   {
+    key: 'laravel_requirement',
     path: '/laravel/development/requirement',
     component: LaravelRequirement,
   },
   {
+    key: 'laravel_guidance',
     path: '/laravel/production/guidance',
     component: LaravelGuidance,
   },
   {
+    key: 'code_php_stan',
     path: '/code/quality/phpstan',
     component: CodePhpStan,
   },
   {
+    key: 'code_php_cs_fixer',
     path: '/code/style/phpcsfixer',
     component: CodePhpCsFixer,
   },
   {
+    key: 'code_php_sniffer',
     path: '/code/style/phpcodesniffer',
     component: CodePhpCodeSniffer,
   },
 ];
 
 const routeComponents = routes
-  .map((route, index) => {
-  // eslint-disable-next-line no-param-reassign
-    route.key = index;
-    return route;
-  })
   .map((route) => {
     if (route.children === undefined) {
       return (
@@ -184,9 +208,9 @@ const routeComponents = routes
           element={<route.component />}
         />
         {
-          route.children.map((child) => (
+          route.children.map((child, index) => (
             <Route
-              key={child.key}
+              key={`${child.key}_${index}`}
               exact={child.exact}
               path={child.path}
               element={<child.component />}

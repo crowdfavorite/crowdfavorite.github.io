@@ -2,7 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import "./lib/typography";
-@import "./lib/micon/micon";
 
 body {
     @apply
@@ -95,7 +94,11 @@ body {
             py-2;
 
           .action-label {
-            @apply ml-1.5;
+            @apply
+            cursor-pointer
+            flex
+            items-center
+            ml-1.5;
           }
 
           &.download {

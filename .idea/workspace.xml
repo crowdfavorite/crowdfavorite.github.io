@@ -5,81 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/js/117.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/117.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/169.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/169.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/18.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/18.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/227.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/227.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/236.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/236.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/254.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/254.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/271.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/271.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/286.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/286.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/29.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/29.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/294.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/294.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/320.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/320.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/361.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/361.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/378.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/378.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/385.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/385.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/414.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/414.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/444.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/444.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/447.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/447.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/46.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/46.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/467.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/467.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/49.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/49.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/504.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/504.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/522.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/522.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/530.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/530.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/548.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/548.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/595.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/595.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/646.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/646.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/646.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/800.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/800.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/81.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/81.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/962.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/962.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/965.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/965.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/router/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/router/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/vendor.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/vendor.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/boot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,12 +44,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="issue-13/roboto" />
-                    <option name="lastUsedInstant" value="1674929403" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="issue-12/conversion_webpack" />
-                    <option name="lastUsedInstant" value="1674928228" />
+                    <option name="branchName" value="issue-6/react_18_upgrade" />
+                    <option name="lastUsedInstant" value="1674969264" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="gh-pages" />

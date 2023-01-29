@@ -4,9 +4,10 @@
   "description": "<p><img src=\"https://crowdfavstage.wpengine.com/wp-content/uploads/2019/05/logo.png\" width=\"100\"/></p>",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env webpack --config webpack.dev.js",
-    "watch": "cross-env webpack --config webpack.dev.js",
-    "prod": "cross-env webpack --config webpack.prod.js"
+    "dev": "cross-env NODE_ENV=development webpack --config webpack.dev.js",
+    "watch": "cross-env ENV_LIVE=true NODE_ENV=development webpack --config webpack.dev.js",
+    "start": "node server.js",
+    "prod": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",

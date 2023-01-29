@@ -3,12 +3,12 @@ const Dotenv = require('dotenv-webpack');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
 const path = require('path');
 const tailwindcss = require('tailwindcss');
 const webpack = require('webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
-const fs = require('fs');
 
 const destFolder = 'build/js';
 
@@ -20,13 +20,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, destFolder),
     filename: '[name].js',
-  },
-  devServer: {
-    allowedHosts: 'all',
-    static: {
-      directory: __dirname,
-      publicPath: '/',
-    },
+    chunkFilename: '[chunkhash].js'
   },
   module: {
     rules: [
@@ -52,7 +46,12 @@ module.exports = {
                 plugins: [
                   tailwindcss('./tailwind.config.js'),
                   autoprefixer(),
-                ],
+                  process.env.NODE_ENV === 'production'
+                    ? cssnano({
+                      preset: 'default',
+                    })
+                    : null,
+                ].filter(Boolean),
               },
             },
           },
@@ -89,6 +88,7 @@ module.exports = {
   },
   optimization: {
     splitChunks: {
+      chunks: 'async',
       cacheGroups: {
         vendor: {
           test: /[\\/]node_modules[\\/](react|react-dom|react-router-dom|react-markdown|rehype-raw)[\\/]/,
@@ -124,10 +124,7 @@ module.exports = {
         '**/*.ttf',
       ],
     }),
-    // new WebpackManifestPlugin({
-    //   basePath: destFolder,
-    //   template: './index.html',
-    // }),
+    new WebpackManifestPlugin(),
     new Dotenv({
       systemvars: true,
     }),

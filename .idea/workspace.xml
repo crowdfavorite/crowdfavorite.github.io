@@ -5,183 +5,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/js/119.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/119.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/148.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/148.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/161.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/161.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/218.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/218.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/22.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/22.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/225.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/225.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/24.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/24.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/257.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/257.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/28.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/28.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/35.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/35.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/351.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/351.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/372.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/372.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/401.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/401.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/431.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/431.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/485.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/485.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/63.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/63.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/685.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/685.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/696.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/696.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/698.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/698.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/757.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/757.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/772.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/772.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/808.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/808.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/909.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/909.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/915.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/915.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/953.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/953.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/976.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/976.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/999.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/999.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/components/micons/download.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/0389516c20c1a63a8ab6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/0389516c20c1a63a8ab6.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/1c1942e08d7396146630.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/1c1942e08d7396146630.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/249d60fb7e9c56fca255.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/249d60fb7e9c56fca255.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/29aca0f92de688628154.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/29aca0f92de688628154.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/3a9c844a6cee192f20bd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/3a9c844a6cee192f20bd.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/3ba77b4c7cfade84d371.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/3ba77b4c7cfade84d371.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/550c35f61990ff7cb2d9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/550c35f61990ff7cb2d9.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/63bfce4efdc523e32886.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/63bfce4efdc523e32886.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/6d3aac7ab313c86369d2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/6d3aac7ab313c86369d2.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/7489beb10a5a5628befa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/7489beb10a5a5628befa.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/7605db1f7de475e439e3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/7605db1f7de475e439e3.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/77dcb2cde9c454c3bf02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/77dcb2cde9c454c3bf02.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/7e3613fe290f5c9e45cb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/7e3613fe290f5c9e45cb.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/8d8d15ab2f713b06cf1c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/8d8d15ab2f713b06cf1c.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/9447644267a05fa7a81a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/9447644267a05fa7a81a.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/96289a1474cb8ae07207.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/96289a1474cb8ae07207.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/96289a1474cb8ae07207.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/a37fa68746c4e61f1631.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/a37fa68746c4e61f1631.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/a3d71e4cf74df6af570c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/a3d71e4cf74df6af570c.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/b6114e31e2f1ccff05f1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/b6114e31e2f1ccff05f1.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/bd6966d0fa40f547d90b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/bd6966d0fa40f547d90b.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/c158dbf0559c690aa565.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/c158dbf0559c690aa565.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/c5e504c868a412eda85c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/c5e504c868a412eda85c.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/c62f5f8b92dc4e0703f3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/c62f5f8b92dc4e0703f3.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/cf806ed0f8265ff5fbd7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/cf806ed0f8265ff5fbd7.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/d92690e5bbec5f0e9beb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/d92690e5bbec5f0e9beb.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/dc06348c5c7d1bfc06c5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/dc06348c5c7d1bfc06c5.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/dd667cb6e89ad1011d68.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/dd667cb6e89ad1011d68.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/e60ff2427a7af690421a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/e60ff2427a7af690421a.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/ee83d3d5712c76205fc8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/ee83d3d5712c76205fc8.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/f5cb0c5e7f2300e86b8d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/js/f5cb0c5e7f2300e86b8d.js.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/app.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/117.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/117.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/169.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/169.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/18.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/18.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/227.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/227.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/236.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/236.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/254.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/254.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/271.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/271.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/286.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/286.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/29.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/29.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/294.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/294.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/320.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/320.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/361.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/361.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/378.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/378.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/385.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/385.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/414.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/414.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/444.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/444.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/447.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/447.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/467.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/467.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/49.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/49.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/504.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/504.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/504.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/504.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/522.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/522.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/530.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/530.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/548.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/548.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/595.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/595.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/800.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/800.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/81.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/81.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/962.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/962.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/965.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/965.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/119.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/119.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/148.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/148.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/161.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/161.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/218.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/218.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/22.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/225.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/225.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/24.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/257.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/257.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/28.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/35.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/351.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/351.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/372.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/372.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/401.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/401.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/431.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/431.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/46.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/46.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/485.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/485.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/504.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/504.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/583.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/583.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/583.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/63.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/685.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/685.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/696.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/696.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/698.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/698.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/757.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/757.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/772.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/772.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/808.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/808.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/909.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/909.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/915.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/915.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/953.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/953.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/976.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/976.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/999.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/999.js.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/actionBar/partials/downloadLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/actionBar/partials/downloadLink.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/code/quality/phpstan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/quality/phpstan.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/code/style/phpcodesniffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/style/phpcodesniffer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/code/style/phpcsfixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/code/style/phpcsfixer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/api/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/api/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/development/requirement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/development/requirement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/production/guidance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/production/guidance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/assets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/laravel/web/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/laravel/web/views.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/builder/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/builder/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/factory/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/factory/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/invoker/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/invoker/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/dependency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/facades.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/facades.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/channels.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/channels.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger/introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/providers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/providers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/structure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/wordpress/plugin/structure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/code/quality/phpstan.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/code/quality/phpstan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/code/style/phpcodesniffer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/code/style/phpcodesniffer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/code/style/phpcsfixer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/code/style/phpcsfixer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/api/actions.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/api/actions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/api/controllers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/api/controllers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/api/request.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/api/request.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/api/routes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/api/routes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/development/requirement.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/development/requirement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/production/guidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/production/guidance.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/web/assets.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/web/assets.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/web/controllers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/web/controllers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/web/routes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/web/routes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/laravel/web/views.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/laravel/web/views.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/patterns/builder/builder.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/patterns/builder/builder.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/patterns/builder/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/patterns/builder/introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/patterns/factory/factory.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/patterns/factory/factory.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/patterns/factory/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/patterns/factory/introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/patterns/invoker/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/patterns/invoker/introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/patterns/invoker/invokable.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/patterns/invoker/invokable.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/bootstrap.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/bootstrap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/dependency.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/dependency.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/facades.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/facades.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/logger/channels.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/logger/channels.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/logger/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/logger/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/logger/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/logger/introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/providers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/providers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/docs/wordpress/plugin/structure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,8 +174,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="issue-8/rework_download_link_folder_structure" />
-                    <option name="lastUsedInstant" value="1674973592" />
+                    <option name="branchName" value="issue-xxx/xxxx" />
+                    <option name="lastUsedInstant" value="1674982489" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="gh-pages" />
@@ -252,7 +207,7 @@
     "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "true",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/src/js/components/micons",
+    "last_opened_file_path": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/build",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/node_modules/eslint",
@@ -266,18 +221,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build" />
       <recent name="$PROJECT_DIR$/src/js/components/micons" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/scss" />
-      <recent name="$PROJECT_DIR$/views/wordpress/plugin/logger" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/src/js/components/actionBar/partials" />
       <recent name="$PROJECT_DIR$/src/js/components/micons" />
-      <recent name="link.js" />
     </key>
   </component>
   <component name="RunManager">

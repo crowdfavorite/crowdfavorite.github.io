@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import phpstan from '@views/code/quality/phpstan.md';
+import phpstan from '@docs/code/quality/phpstan.md';
 
 export default function () {
   return (

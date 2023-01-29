@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import builder from '@views/patterns/builder/builder.md';
+import builder from '@docs/patterns/builder/builder.md';
 
 export default function () {
   return (

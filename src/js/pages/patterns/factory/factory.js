@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import factory from '@views/patterns/factory/factory.md';
+import factory from '@docs/patterns/factory/factory.md';
 
 export default function () {
   return (

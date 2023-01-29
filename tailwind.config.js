@@ -18,12 +18,9 @@ module.exports = {
       },
       colors: {
         'cf-base': {
-          DEFAULT: '#f12e15',
-          dark: '#a8200e',
-          light: '#f56c5b',
-        },
-        'cf-gray': {
-          DEFAULT: '#5d5d5d',
+          DEFAULT: '#e72412',
+          dark: '#b81c0e',
+          light: '#ee6559',
         },
       },
     },

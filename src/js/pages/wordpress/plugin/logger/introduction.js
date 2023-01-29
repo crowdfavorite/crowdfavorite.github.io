@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import loggerIntroduction from '@views/wordpress/plugin/logger/introduction.md';
+import loggerIntroduction from '@docs/wordpress/plugin/logger/introduction.md';
 
 export default function () {
   return (

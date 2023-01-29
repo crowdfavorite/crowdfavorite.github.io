@@ -678,7 +678,7 @@ select {
   margin-bottom: 0.75rem;
   border-left-width: 4px;
   --tw-border-opacity: 1;
-  border-color: rgb(241 46 21 / var(--tw-border-opacity));
+  border-color: rgb(231 36 18 / var(--tw-border-opacity));
   padding-left: 0.5rem;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -688,7 +688,7 @@ select {
   line-height: 1.75rem;
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
-  color: rgb(241 46 21 / var(--tw-text-opacity));
+  color: rgb(231 36 18 / var(--tw-text-opacity));
 }h3 {
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
@@ -813,7 +813,7 @@ select {
   font-size: 0.875rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
-  color: rgb(93 93 93 / var(--tw-text-opacity));
+  color: rgb(107 114 128 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -827,7 +827,7 @@ select {
   align-items: center;
 }.wrapper section .action-bar .actions a.action-link.download {
   --tw-text-opacity: 1;
-  color: rgb(241 46 21 / var(--tw-text-opacity));
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }.wrapper section .action-bar .actions a.action-link:hover {
   font-weight: 400;
   --tw-text-opacity: 1;
@@ -841,13 +841,13 @@ select {
   list-style-type: square;
   padding-left: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgb(241 46 21 / var(--tw-text-opacity));
+  color: rgb(231 36 18 / var(--tw-text-opacity));
 }.wrapper section ul li {
   margin-bottom: 0.5rem;
   width: 100%;
   cursor: pointer;
   --tw-text-opacity: 1;
-  color: rgb(241 46 21 / var(--tw-text-opacity));
+  color: rgb(231 36 18 / var(--tw-text-opacity));
 }.wrapper section ul li a {
   width: 100%;
   white-space: nowrap;
@@ -868,23 +868,23 @@ select {
 }.wrapper section ul li a:hover {
   letter-spacing: 0.05em;
   --tw-text-opacity: 1;
-  color: rgb(241 46 21 / var(--tw-text-opacity));
+  color: rgb(231 36 18 / var(--tw-text-opacity));
 }.wrapper section a.button {
   margin-bottom: 1rem;
   min-width: 150px;
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(241 46 21 / var(--tw-border-opacity));
+  border-color: rgb(231 36 18 / var(--tw-border-opacity));
   background-color: transparent;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
-  color: rgb(241 46 21 / var(--tw-text-opacity));
+  color: rgb(231 36 18 / var(--tw-text-opacity));
 }.wrapper section a.button:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 46 21 / var(--tw-bg-opacity));
+  background-color: rgb(231 36 18 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }.wrapper section a.link {
@@ -897,7 +897,7 @@ select {
   padding-bottom: 0.5rem;
   padding-left: 0px;
   --tw-text-opacity: 1;
-  color: rgb(241 46 21 / var(--tw-text-opacity));
+  color: rgb(231 36 18 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -906,7 +906,7 @@ select {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }.wrapper section a.link:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 46 21 / var(--tw-bg-opacity));
+  background-color: rgb(231 36 18 / var(--tw-bg-opacity));
   padding-left: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));

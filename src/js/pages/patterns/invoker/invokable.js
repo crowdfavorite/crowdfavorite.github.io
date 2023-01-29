@@ -9,7 +9,7 @@ import invokable from '@views/patterns/invoker/invokable.md';
 export default function () {
   return (
     <>
-      <ActionBar title="Invoker" downloadUrl="/code/patterns/invoker/invokable.php" downloadFile="invokable.php" />
+      <ActionBar title="Invoker" downloadUrl="/assets/downloads/patterns/invoker/invokable.php" downloadFile="invokable.php" />
       <div className="parser">
         <ReactMarkdown rehypePlugins={[rehypeRaw]} children={invokable} />
       </div>

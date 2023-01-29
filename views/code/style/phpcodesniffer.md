@@ -33,7 +33,7 @@ Then click on the validate button.
 
 Wordpress mainly follows PSR-12 however you can download a custom ruleset from
 <br>
-<p class="m-0 mb-05"><a class="link" href="/code/style/phpcs.xml" download="phpcs.xml">Wordpress preset</a></p>
+<p class="m-0 mb-05"><a class="link" href="/assets/downloads/style/phpcs.xml" download="phpcs.xml">Wordpress preset</a></p>
 
 In the php code sniffer inspection options choose custom as ruleset and point to the file phpcs.xml placed at the root of the project folder.
 

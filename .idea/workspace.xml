@@ -7,6 +7,22 @@
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/29.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/29.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/320.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/320.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/444.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/444.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/patterns/builder/phoneBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/downloads/patterns/builder/phoneBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/patterns/factory/paymentMethods.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/downloads/patterns/factory/paymentMethods.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/patterns/invoker/invokable.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/downloads/patterns/invoker/invokable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/quality/phpstan.neon" beforeDir="false" afterPath="$PROJECT_DIR$/assets/downloads/quality/phpstan.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/style/php-cs-laravel.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/downloads/style/php-cs-laravel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/style/phpcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/assets/downloads/style/phpcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/builder/builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/factory/factory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/patterns/invoker/invokable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/code/quality/phpstan.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/code/quality/phpstan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/code/style/phpcodesniffer.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/code/style/phpcodesniffer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/code/style/phpcsfixer.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/code/style/phpcsfixer.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +60,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="issue-6/react_18_upgrade" />
-                    <option name="lastUsedInstant" value="1674969264" />
+                    <option name="branchName" value="issue-8/rework_download_link_folder_structure" />
+                    <option name="lastUsedInstant" value="1674973592" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="gh-pages" />
@@ -98,11 +114,11 @@
       <recent name="$PROJECT_DIR$/views/wordpress/plugin/logger" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/src/js/components/actionBar/partials" />
       <recent name="$PROJECT_DIR$/src/js/components/micons" />
       <recent name="link.js" />
       <recent name="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger" />
-      <recent name="$PROJECT_DIR$/views/wordpress/plugin/logger" />
     </key>
   </component>
   <component name="RunManager">

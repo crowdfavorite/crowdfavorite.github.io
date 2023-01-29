@@ -32,7 +32,7 @@ Laravel code styling standard follows mainly PSR-2.
 
 However the community tailored a preset for Laravel which can be downloaded from:
 
-<p class="m-0 mb-05"><a class="link" href="/code/style/php-cs-laravel.php" download="php-cs-laravel.php">Laravel preset</a></p>
+<p class="m-0 mb-05"><a class="link" href="/assets/downloads/style/php-cs-laravel.php" download="php-cs-laravel.php">Laravel preset</a></p>
 
 The preset file should be renamed to .php_cs and placed at the root of the Laravel project.
 

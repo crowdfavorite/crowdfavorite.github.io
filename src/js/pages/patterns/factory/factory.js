@@ -9,7 +9,7 @@ import factory from '@views/patterns/factory/factory.md';
 export default function () {
   return (
     <>
-      <ActionBar title="Factory" downloadUrl="/code/patterns/factory/paymentMethods.php" downloadFile="paymentMethods.php" />
+      <ActionBar title="Factory" downloadUrl="/assets/downloads/patterns/factory/paymentMethods.php" downloadFile="paymentMethods.php" />
       <div className="parser">
         <ReactMarkdown rehypePlugins={[rehypeRaw]} children={factory} />
       </div>

@@ -28,7 +28,7 @@ Then click on the validate button.
 
 The configuration of phpstan is stored in phpstan.neon located at the root of the project folder.
 
-<p class="m-0 mb-05"><a class="link" href="/code/quality/phpstan.neon" download="phpstan.neon">PhpStan config</a></p>
+<p class="m-0 mb-05"><a class="link" href="/assets/downloads/quality/phpstan.neon" download="phpstan.neon">PhpStan config</a></p>
 
 In the inspection options the config file should be selected.
 

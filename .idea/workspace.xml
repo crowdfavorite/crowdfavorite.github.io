@@ -5,138 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/js/0389516c20c1a63a8ab6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/0389516c20c1a63a8ab6.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/1c1942e08d7396146630.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/1c1942e08d7396146630.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/249d60fb7e9c56fca255.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/249d60fb7e9c56fca255.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/29aca0f92de688628154.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/29aca0f92de688628154.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/3a9c844a6cee192f20bd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/3a9c844a6cee192f20bd.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/3ba77b4c7cfade84d371.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/3ba77b4c7cfade84d371.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/550c35f61990ff7cb2d9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/550c35f61990ff7cb2d9.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/63bfce4efdc523e32886.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/63bfce4efdc523e32886.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/6d3aac7ab313c86369d2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/6d3aac7ab313c86369d2.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/7489beb10a5a5628befa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/7489beb10a5a5628befa.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/7605db1f7de475e439e3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/7605db1f7de475e439e3.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/77dcb2cde9c454c3bf02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/77dcb2cde9c454c3bf02.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/7e3613fe290f5c9e45cb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/7e3613fe290f5c9e45cb.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/8d8d15ab2f713b06cf1c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/8d8d15ab2f713b06cf1c.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/9447644267a05fa7a81a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/9447644267a05fa7a81a.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/96289a1474cb8ae07207.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/96289a1474cb8ae07207.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/96289a1474cb8ae07207.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/a37fa68746c4e61f1631.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/a37fa68746c4e61f1631.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/a3d71e4cf74df6af570c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/a3d71e4cf74df6af570c.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/b6114e31e2f1ccff05f1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/b6114e31e2f1ccff05f1.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/bd6966d0fa40f547d90b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/bd6966d0fa40f547d90b.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/c158dbf0559c690aa565.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/c158dbf0559c690aa565.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/c5e504c868a412eda85c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/c5e504c868a412eda85c.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/c62f5f8b92dc4e0703f3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/c62f5f8b92dc4e0703f3.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/cf806ed0f8265ff5fbd7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/cf806ed0f8265ff5fbd7.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/d92690e5bbec5f0e9beb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/d92690e5bbec5f0e9beb.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/dc06348c5c7d1bfc06c5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/dc06348c5c7d1bfc06c5.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/dd667cb6e89ad1011d68.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/dd667cb6e89ad1011d68.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/e60ff2427a7af690421a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/e60ff2427a7af690421a.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/ee83d3d5712c76205fc8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/ee83d3d5712c76205fc8.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/f5cb0c5e7f2300e86b8d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/f5cb0c5e7f2300e86b8d.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/119.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/119.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/148.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/148.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/161.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/161.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/218.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/218.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/22.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/22.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/225.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/225.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/24.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/24.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/257.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/257.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/28.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/28.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/35.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/35.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/351.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/351.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/372.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/372.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/401.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/401.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/431.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/431.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/46.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/46.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/485.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/485.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/504.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/504.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/583.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/583.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/583.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/63.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/63.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/685.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/685.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/696.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/696.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/698.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/698.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/757.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/757.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/772.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/772.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/808.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/808.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/909.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/909.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/915.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/915.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/953.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/953.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/976.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/976.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/999.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/999.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,12 +44,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="issue-xxx/xxxx" />
-                    <option name="lastUsedInstant" value="1674982489" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="gh-pages" />
-                    <option name="lastUsedInstant" value="1674885160" />
+                    <option name="lastUsedInstant" value="1674985197" />
                   </RecentBranch>
                 </list>
               </option>
@@ -201,24 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.laravel-idea.search-composer-json": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/build",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.webpack",
-    "ts.external.directory.path": "/Users/nnjeim/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/223.8214.64/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/build&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.webpack&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/nnjeim/Library/Application Support/JetBrains/Toolbox/apps/PhpStorm/ch-0/223.8214.64/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/build" />
@@ -282,6 +148,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

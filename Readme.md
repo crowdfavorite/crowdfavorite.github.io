@@ -9,8 +9,9 @@
 - Markdown parser
 
 ### Installation
-- Clone this repository into a local folder.
-- Run `npm install` followed by `npm run dev`.
+- Clone this repo into a local folder.
+- Run `npm run install`.
+- Run `npm run start` for development and hot reloading.
 
 ### Demo
 <a href="https://crowdfavorite.github.io/"><h4>Crowdfavorite github pages</h4></a>

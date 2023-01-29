@@ -6,7 +6,6 @@ import {
   Route,
 } from 'react-router-dom';
 import React, { Suspense } from 'react';
-import { ThemeProvider } from '@primer/components';
 import Loading from '@js/components/router/loading';
 import routes from '@js/router/routes';
 
@@ -46,14 +45,12 @@ const routeComponents = routes
 
 export default function () {
   return (
-    <ThemeProvider>
-      <Router>
-        <Suspense fallback={Loading}>
-          <Routes>
-            {routeComponents}
-          </Routes>
-        </Suspense>
-      </Router>
-    </ThemeProvider>
+    <Router>
+      <Suspense fallback={Loading}>
+        <Routes>
+          {routeComponents}
+        </Routes>
+      </Suspense>
+    </Router>
   );
 }

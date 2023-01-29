@@ -5,16 +5,11 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
 import structure from '@views/wordpress/plugin/structure.md';
-import { Breadcrumb } from '@primer/components';
 
 export default function () {
   return (
     <>
       <ActionBar title="Plugin" nextUrl="/wordpress/plugin/bootstrap" />
-      <Breadcrumb style={{ marginBottom: '2rem' }}>
-        <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-        <Breadcrumb.Item href="#/wordpress/plugin/structure" selected>Structure</Breadcrumb.Item>
-      </Breadcrumb>
       <div className="parser">
         <ReactMarkdown rehypePlugins={[rehypeRaw]} children={structure} />
       </div>

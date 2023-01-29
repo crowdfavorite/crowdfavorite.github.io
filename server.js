@@ -1,18 +1,29 @@
 /* eslint-disable */
-const Webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
-const webpackConfig = require('./webpack.dev.js');
+const config = require('./webpack.dev.js');
 
-const compiler = Webpack(webpackConfig);
-const devServerOptions = {
-  ...webpackConfig.devServer,
-  open: true,
-};
-const server = new WebpackDevServer(devServerOptions, compiler);
+const PORT = process.env.PORT || 9000;
 
-const runServer = async () => {
-  console.log('Starting server...');
-  await server.start();
-};
+const compiler = webpack(config);
+const server = new WebpackDevServer(compiler, {
+  static: {
+    directory: path.join(__dirname, '/'),
+  },
+  devMiddleware: {
+    index: true,
+    mimeTypes: { phtml: 'text/html' },
+    publicPath: path.join(__dirname, '/'),
+    serverSideRender: false,
+    writeToDisk: true,
+  },
+  compress: true,
+  port: 9000,
+});
 
-runServer();
+server.listen(PORT, 'localhost', (err) => {
+  if (err) {
+    return console.error(err);
+  }
+});

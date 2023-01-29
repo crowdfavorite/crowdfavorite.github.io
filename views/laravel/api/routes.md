@@ -1,4 +1,4 @@
-<p class="mx-auto fit-content p-3"><img src="/build/images/singleAction.svg" height="120"/></p>
+<p class="mx-auto fit-content p-3"><img src="/assets/images/singleAction.svg" height="120"/></p>
 
 Grouped in a the namespace 'Api', all the api requests are directed to the folder api located at:
 

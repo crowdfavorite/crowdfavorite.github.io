@@ -6,13 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7155476c-1097-4d82-bfca-60f9d72144f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/app.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/fonts/RobotoCondensed-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/da87a0999acc0784c355.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/lib/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lib/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/boilerplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/singleAction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/singleAction.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/laravel/api/routes.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/laravel/api/routes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/views/wordpress/plugin/structure.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="issue-13/roboto" />
+                    <option name="lastUsedInstant" value="1674929403" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="issue-12/conversion_webpack" />
                     <option name="lastUsedInstant" value="1674928228" />
                   </RecentBranch>
@@ -83,7 +86,7 @@
     "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "true",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io",
+    "last_opened_file_path": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "/Users/nnjeim/Documents/projects/app/crowdfavorite.github.io/node_modules/eslint",
@@ -97,11 +100,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/js/components/micons" />
       <recent name="$PROJECT_DIR$/src/scss" />
       <recent name="$PROJECT_DIR$/views/wordpress/plugin/logger" />
-      <recent name="$PROJECT_DIR$/src/js/pages/wordpress/plugin/logger" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/js/components/actionBar/partials" />

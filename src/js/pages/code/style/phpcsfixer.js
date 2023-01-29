@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import phpcsfixer from '@views/code/style/phpcsfixer.md';
+import phpcsfixer from '@docs/code/style/phpcsfixer.md';
 
 export default function () {
   return (

@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import loggerChannels from '@views/wordpress/plugin/logger/channels.md';
+import loggerChannels from '@docs/wordpress/plugin/logger/channels.md';
 
 export default function () {
   return (

@@ -102,7 +102,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
     alias: {
       '@js': path.resolve(__dirname, 'src/js'),
-      '@views': path.resolve(__dirname, 'views'),
+      '@docs': path.resolve(__dirname, 'src/docs'),
     },
   },
   plugins: [

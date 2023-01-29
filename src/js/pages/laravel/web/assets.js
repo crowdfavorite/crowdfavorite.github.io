@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import assets from '@views/laravel/web/assets.md';
+import assets from '@docs/laravel/web/assets.md';
 
 export default function () {
   return (

@@ -1,6 +1,7 @@
 /* eslint-disable func-names */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Download from '@js/components/micons/download';
 
 const DownloadLink = function ({ downloadUrl, downloadFile }) {
   return (
@@ -9,7 +10,7 @@ const DownloadLink = function ({ downloadUrl, downloadFile }) {
       href={`${process.env.APP_URL + downloadUrl}`}
       download={downloadFile}
     >
-      <i className="micon micon-download micon-grey micon-xs" />
+      <Download size="20px" />
       <span className="action-label">Download the code</span>
     </a>
   );

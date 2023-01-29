@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import phpcodesniffer from '@views/code/style/phpcodesniffer.md';
+import phpcodesniffer from '@docs/code/style/phpcodesniffer.md';
 
 export default function () {
   return (

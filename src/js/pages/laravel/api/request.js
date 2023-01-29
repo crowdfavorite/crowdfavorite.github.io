@@ -4,7 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
-import request from '@views/laravel/api/request.md';
+import request from '@docs/laravel/api/request.md';
 
 export default function () {
   return (

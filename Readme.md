@@ -10,8 +10,12 @@
 
 ### Installation
 - Clone this repo into a local folder.
-- Run `npm run install`.
-- Run `npm run start` for development and hot reloading.
+- Run `npm run install`
+For development
+- Run `npm run dev` or `npm run watch` for Live Reloading.
+- Run `npm run start` for development and hot reloading with the webpack dev server.
+For production
+- Run `npm run prod`
 
 ### Demo
-<a href="https://crowdfavorite.github.io/"><h4>Crowdfavorite github pages</h4></a>
+[Crowdfavorite GitHub Page](https://crowdfavorite.github.io)

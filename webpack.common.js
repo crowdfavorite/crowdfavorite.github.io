@@ -1,6 +1,7 @@
 /* eslint-disable */
 const Dotenv = require('dotenv-webpack');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
@@ -11,6 +12,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 
 const destFolder = 'build/js';
+const publicPath = process.env.PUBLIC_URL;
 
 module.exports = {
   entry: {
@@ -20,12 +22,13 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, destFolder),
     filename: '[name].js',
-    chunkFilename: '[chunkhash].js'
+    chunkFilename: '[chunkhash].js',
+    publicPath,
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -99,7 +102,7 @@ module.exports = {
     },
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
     alias: {
       '@js': path.resolve(__dirname, 'src/js'),
       '@docs': path.resolve(__dirname, 'src/docs'),
@@ -108,6 +111,16 @@ module.exports = {
   plugins: [
     new ESLintPlugin({
       extensions: ['js', 'jsx', 'ts', 'tsx'],
+    }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'src/index.html'),
+      filename: path.join(__dirname, "index.html"),
+      hash: true,
+      inject: 'body',
+      favicon: 'favicon.ico',
+      templateParameters: {
+        PUBLIC_URL: publicPath
+      },
     }),
     new MiniCssExtractPlugin({
       filename: '../css/[name].css',
@@ -124,7 +137,14 @@ module.exports = {
         '**/*.ttf',
       ],
     }),
-    new WebpackManifestPlugin(),
+    new WebpackManifestPlugin({
+      fileName: "../manifest.json",
+      publicPath,
+      map: (file) => {
+        file.name = file.path;
+        return file;
+      },
+    }),
     new Dotenv({
       systemvars: true,
     }),

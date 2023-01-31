@@ -7,7 +7,7 @@ const config = require('./webpack.dev.js');
 const PORT = process.env.PORT || 9000;
 
 const compiler = webpack(config);
-const server = new WebpackDevServer(compiler, {
+const server = new WebpackDevServer({
   static: {
     directory: path.join(__dirname, '/'),
   },
@@ -20,10 +20,6 @@ const server = new WebpackDevServer(compiler, {
   },
   compress: true,
   port: 9000,
-});
+}, compiler);
 
-server.listen(PORT, 'localhost', (err) => {
-  if (err) {
-    return console.error(err);
-  }
-});
+(async () => await server.start())();

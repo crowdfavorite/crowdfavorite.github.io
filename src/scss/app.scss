@@ -61,20 +61,6 @@ body {
             gap-y-8;
         }
 
-        .code-copy-btn {
-            @apply
-            relative
-            cursor-pointer
-            transition
-            text-cf-base;
-
-            &:hover {
-                @apply
-                opacity-90
-                scale-110;
-            }
-        }
-
         .action-bar {
             @apply
             flex
@@ -213,7 +199,6 @@ body {
         }
 
         table {
-            font-family: RobotoCondensed, Roboto;
             @apply
             border-collapse
             font-light
@@ -235,6 +220,19 @@ body {
                     py-2
                     border-b-gray-200;
                 }
+            }
+        }
+        .copy {
+            @apply
+            relative
+            cursor-pointer
+            transition
+            text-cf-base;
+
+            &:hover {
+                @apply
+                opacity-90
+                scale-110;
             }
         }
     }

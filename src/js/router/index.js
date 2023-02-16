@@ -22,13 +22,12 @@ const routeComponents = routes
       );
     }
     return (
-      <Route>
-        <Route
-          key={route.key}
-          exact={route.exact}
-          path={route.path}
-          element={<route.component />}
-        />
+      <Route
+        key={route.key}
+        exact={route.exact}
+        path={route.path}
+        element={<route.component />}
+      >
         {
           route.children.map((child, index) => (
             <Route

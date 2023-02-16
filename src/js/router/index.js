@@ -45,7 +45,7 @@ const routeComponents = routes
 export default function () {
   return (
     <Router>
-      <Suspense fallback={Loading}>
+      <Suspense fallback={<Loading />}>
         <Routes>
           {routeComponents}
         </Routes>

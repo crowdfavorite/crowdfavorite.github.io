@@ -35,7 +35,7 @@ Base.propTypes = {
   size: PropTypes.string,
   className: PropTypes.string,
   title: PropTypes.string.isRequired,
-  path: PropTypes.string,
+  path: PropTypes.element,
 };
 
 export default Base;

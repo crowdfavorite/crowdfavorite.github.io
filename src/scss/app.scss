@@ -4,231 +4,244 @@
 @import "./lib/typography";
 
 body {
-    @apply
-    overflow-x-hidden
-    w-screen;
+	@apply
+	overflow-x-hidden
+	w-screen;
 }
 
 .wrapper {
-    @apply
-    container
-    flex
-    flex-col
-    mx-auto;
+	@apply
+	container
+	flex
+	flex-col
+	mx-auto;
 
-  header {
-      @apply
-      subpixel-antialiased
-      bg-white
-      fixed
-      flex
-      float-none
-      justify-between
-      mb-5
-      top-0
-      w-full;
-  }
+	header {
+		@apply
+		subpixel-antialiased
+		bg-white
+		fixed
+		flex
+		float-none
+		justify-between
+		mb-5
+		top-0
+		w-full;
+	}
 
-  footer {
-      @apply
-      block
-      flex
-      float-none
-      justify-between
-      mt-5
-      subpixel-antialiased
-      w-full;
-  }
+	footer {
+		@apply
+		block
+		flex
+		float-none
+		justify-between
+		mt-5
+		subpixel-antialiased
+		w-full;
+	}
 
-  section {
-      @apply
-      w-full
-      pt-36;
+	section {
+		@apply
+		w-full
+		pt-36;
 
-    .grid-col-3 {
-      @apply
-      grid
-      grid-cols-3
-      gap-x-4
-      gap-y-8;
-    }
+		.grid-col-3 {
+			@apply
+			grid
+			grid-cols-3
+			gap-x-4
+			gap-y-8;
+		}
 
-    .grid-col-2 {
-      @apply
-      grid
-      grid-cols-2
-      gap-x-4
-      gap-y-8;
-    }
+		.grid-col-2 {
+			@apply
+			grid
+			grid-cols-2
+			gap-x-4
+			gap-y-8;
+		}
 
-    .action-bar {
-        @apply
-        flex
-        items-center
-        justify-between
-        mb-8;
+		.code-copy-btn {
+			@apply
+			relative
+			cursor-pointer
+			transition
+			text-cf-base;
+			left: calc(100% - 24px);
+			bottom: calc(100% - 24px);
 
-      h1 {
-        @apply m-0;
-      }
+			&:hover {
+				@apply
+				opacity-90
+				scale-110;
+			}
+		}
 
-      .actions {
-          @apply
-          flex
-          items-center
-          gap-2
-          ml-auto;
+		.action-bar {
+			@apply
+			flex
+			items-center
+			justify-between
+			mb-8;
 
-        a.action-link {
-            @apply
-            flex
-            items-center
-            text-gray-500
-            text-right
-            text-sm
-            transition
-            duration-500
-            ease-out
-            min-w-[3.5rem]
-            px-1
-            py-2;
+			h1 {
+				@apply m-0;
+			}
 
-          .action-label {
-            @apply
-            cursor-pointer
-            flex
-            items-center
-            ml-1.5;
-          }
+			.actions {
+				@apply
+				flex
+				items-center
+				gap-2
+				ml-auto;
 
-          &.download {
-            @apply text-gray-500;
-          }
+				a.action-link {
+					@apply
+					flex
+					items-center
+					text-gray-500
+					text-right
+					text-sm
+					transition
+					duration-500
+					ease-out
+					min-w-[3.5rem]
+					px-1
+					py-2;
 
-          &:hover {
-              @apply
-              text-black
-              font-normal;
-          }
-        }
-      }
-    }
+					.action-label {
+						@apply
+						cursor-pointer
+						flex
+						items-center
+						ml-1.5;
+					}
 
-    .parser {
-      @apply mb-8;
-    }
+					&.download {
+						@apply text-gray-500;
+					}
 
-    ul {
-        @apply
-        m-0
-        w-full;
+					&:hover {
+						@apply
+						text-black
+						font-normal;
+					}
+				}
+			}
+		}
 
-      &.menu {
-          @apply
-          list-square
-          pl-6
-          text-cf-base;
-      }
+		.parser {
+			@apply mb-8;
+		}
 
-      li {
-          @apply
-          cursor-pointer
-          mb-2
-          text-cf-base
-          w-full;
+		ul {
+			@apply
+			m-0
+			w-full;
 
-        a {
-            @apply
-            bg-transparent
-            transition
-            duration-500
-            ease-out
-            px-1
-            py-2
-            pl-0
-            text-black
-            w-full
-            whitespace-nowrap;
+			&.menu {
+				@apply
+				list-square
+				pl-6
+				text-cf-base;
+			}
 
-          &:hover {
-            @apply
-            text-cf-base
-            tracking-wider;
-          }
-        }
-      }
-    }
+			li {
+				@apply
+				cursor-pointer
+				mb-2
+				text-cf-base
+				w-full;
 
-    a.button {
-        @apply
-        bg-transparent
-        border
-        border-cf-base
-        mb-4
-        min-w-[150px]
-        text-cf-base
-        px-1
-        py-2;
+				a {
+					@apply
+					bg-transparent
+					transition
+					duration-500
+					ease-out
+					px-1
+					py-2
+					pl-0
+					text-black
+					w-full
+					whitespace-nowrap;
 
-      &:hover {
-          @apply
-          bg-cf-base
-          text-white;
-      }
-    }
+					&:hover {
+						@apply
+						text-cf-base
+						tracking-wider;
+					}
+				}
+			}
+		}
 
-    a.link {
-        @apply
-        bg-transparent
-        text-cf-base
-        transition
-        duration-500
-        ease-out
-        mb-4
-        min-w-[150px]
-        pl-0
-        px-1
-        py-2;
+		a.button {
+			@apply
+			bg-transparent
+			border
+			border-cf-base
+			mb-4
+			min-w-[150px]
+			text-cf-base
+			px-1
+			py-2;
 
-      &:hover {
-          @apply
-          bg-cf-base
-          text-white
-          pl-2;
-      }
-    }
+			&:hover {
+				@apply
+				bg-cf-base
+				text-white;
+			}
+		}
 
-    table {
-        font-family: RobotoCondensed, Roboto;
-        @apply
-        border-collapse
-        font-light
-        text-sm;
+		a.link {
+			@apply
+			bg-transparent
+			text-cf-base
+			transition
+			duration-500
+			ease-out
+			mb-4
+			min-w-[150px]
+			pl-0
+			px-1
+			py-2;
 
-      thead {
-        td {
-          @apply
-          px-1
-          py-2
-          border-b-gray-300;
-        }
-      }
+			&:hover {
+				@apply
+				bg-cf-base
+				text-white
+				pl-2;
+			}
+		}
 
-      tbody {
-        td {
-            @apply
-            px-1
-            py-2
-            border-b-gray-200;
-        }
-      }
-    }
-  }
+		table {
+			font-family: RobotoCondensed, Roboto;
+			@apply
+			border-collapse
+			font-light
+			text-sm;
+
+			thead {
+				td {
+					@apply
+					px-1
+					py-2
+					border-b-gray-300;
+				}
+			}
+
+			tbody {
+				td {
+					@apply
+					px-1
+					py-2
+					border-b-gray-200;
+				}
+			}
+		}
+	}
 }
 
 .fit-content {
-  @apply w-fit;
+	@apply w-fit;
 }
-
-
-

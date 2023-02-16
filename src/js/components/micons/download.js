@@ -19,12 +19,13 @@ const Download = function ({ size = '', className = '', title = '' }) {
 Download.defaultProps = {
   size: '24px',
   className: '',
+  title: '',
 };
 
 Download.propTypes = {
   size: PropTypes.string,
   className: PropTypes.string,
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
 
 export default Download;

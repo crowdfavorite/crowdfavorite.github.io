@@ -4,242 +4,242 @@
 @import "./lib/typography";
 
 body {
-	@apply
-	overflow-x-hidden
-	w-screen;
+    @apply
+    overflow-x-hidden
+    w-screen;
 }
 
 .wrapper {
-	@apply
-	container
-	flex
-	flex-col
-	mx-auto;
+    @apply
+    container
+    flex
+    flex-col
+    mx-auto;
 
-	header {
-		@apply
-		subpixel-antialiased
-		bg-white
-		fixed
-		flex
-		float-none
-		justify-between
-		mb-5
-		top-0
-		w-full;
-	}
+    header {
+        @apply
+        subpixel-antialiased
+        bg-white
+        fixed
+        flex
+        float-none
+        justify-between
+        mb-5
+        top-0
+        w-full;
+    }
 
-	footer {
-		@apply
-		block
-		flex
-		float-none
-		justify-between
-		mt-5
-		subpixel-antialiased
-		w-full;
-	}
+    footer {
+        @apply
+        block
+        flex
+        float-none
+        justify-between
+        mt-5
+        subpixel-antialiased
+        w-full;
+    }
 
-	section {
-		@apply
-		w-full
-		pt-36;
+    section {
+        @apply
+        w-full
+        pt-36;
 
-		.grid-col-3 {
-			@apply
-			grid
-			grid-cols-3
-			gap-x-4
-			gap-y-8;
-		}
+        .grid-col-3 {
+            @apply
+            grid
+            grid-cols-3
+            gap-x-4
+            gap-y-8;
+        }
 
-		.grid-col-2 {
-			@apply
-			grid
-			grid-cols-2
-			gap-x-4
-			gap-y-8;
-		}
+        .grid-col-2 {
+            @apply
+            grid
+            grid-cols-2
+            gap-x-4
+            gap-y-8;
+        }
 
-		.code-copy-btn {
-			@apply
-			relative
-			cursor-pointer
-			transition
-			text-cf-base;
+        .code-copy-btn {
+            @apply
+            relative
+            cursor-pointer
+            transition
+            text-cf-base;
 
-			&:hover {
-				@apply
-				opacity-90
-				scale-110;
-			}
-		}
+            &:hover {
+                @apply
+                opacity-90
+                scale-110;
+            }
+        }
 
-		.action-bar {
-			@apply
-			flex
-			items-center
-			justify-between
-			mb-8;
+        .action-bar {
+            @apply
+            flex
+            items-center
+            justify-between
+            mb-8;
 
-			h1 {
-				@apply m-0;
-			}
+            h1 {
+                @apply m-0;
+            }
 
-			.actions {
-				@apply
-				flex
-				items-center
-				gap-2
-				ml-auto;
+            .actions {
+                @apply
+                flex
+                items-center
+                gap-2
+                ml-auto;
 
-				a.action-link {
-					@apply
-					flex
-					items-center
-					text-gray-500
-					text-right
-					text-sm
-					transition
-					duration-500
-					ease-out
-					min-w-[3.5rem]
-					px-1
-					py-2;
+                a.action-link {
+                    @apply
+                    flex
+                    items-center
+                    text-gray-500
+                    text-right
+                    text-sm
+                    transition
+                    duration-500
+                    ease-out
+                    min-w-[3.5rem]
+                    px-1
+                    py-2;
 
-					.action-label {
-						@apply
-						cursor-pointer
-						flex
-						items-center
-						ml-1.5;
-					}
+                    .action-label {
+                        @apply
+                        cursor-pointer
+                        flex
+                        items-center
+                        ml-1.5;
+                    }
 
-					&.download {
-						@apply text-gray-500;
-					}
+                    &.download {
+                        @apply text-gray-500;
+                    }
 
-					&:hover {
-						@apply
-						text-black
-						font-normal;
-					}
-				}
-			}
-		}
+                    &:hover {
+                        @apply
+                        text-black
+                        font-normal;
+                    }
+                }
+            }
+        }
 
-		.parser {
-			@apply mb-8;
-		}
+        .parser {
+            @apply mb-8;
+        }
 
-		ul {
-			@apply
-			m-0
-			w-full;
+        ul {
+            @apply
+            m-0
+            w-full;
 
-			&.menu {
-				@apply
-				list-square
-				pl-6
-				text-cf-base;
-			}
+            &.menu {
+                @apply
+                list-square
+                pl-6
+                text-cf-base;
+            }
 
-			li {
-				@apply
-				cursor-pointer
-				mb-2
-				text-cf-base
-				w-full;
+            li {
+                @apply
+                cursor-pointer
+                mb-2
+                text-cf-base
+                w-full;
 
-				a {
-					@apply
-					bg-transparent
-					transition
-					duration-500
-					ease-out
-					px-1
-					py-2
-					pl-0
-					text-black
-					w-full
-					whitespace-nowrap;
+                a {
+                    @apply
+                    bg-transparent
+                    transition
+                    duration-500
+                    ease-out
+                    px-1
+                    py-2
+                    pl-0
+                    text-black
+                    w-full
+                    whitespace-nowrap;
 
-					&:hover {
-						@apply
-						text-cf-base
-						tracking-wider;
-					}
-				}
-			}
-		}
+                    &:hover {
+                        @apply
+                        text-cf-base
+                        tracking-wider;
+                    }
+                }
+            }
+        }
 
-		a.button {
-			@apply
-			bg-transparent
-			border
-			border-cf-base
-			mb-4
-			min-w-[150px]
-			text-cf-base
-			px-1
-			py-2;
+        a.button {
+            @apply
+            bg-transparent
+            border
+            border-cf-base
+            mb-4
+            min-w-[150px]
+            text-cf-base
+            px-1
+            py-2;
 
-			&:hover {
-				@apply
-				bg-cf-base
-				text-white;
-			}
-		}
+            &:hover {
+                @apply
+                bg-cf-base
+                text-white;
+            }
+        }
 
-		a.link {
-			@apply
-			bg-transparent
-			text-cf-base
-			transition
-			duration-500
-			ease-out
-			mb-4
-			min-w-[150px]
-			pl-0
-			px-1
-			py-2;
+        a.link {
+            @apply
+            bg-transparent
+            text-cf-base
+            transition
+            duration-500
+            ease-out
+            mb-4
+            min-w-[150px]
+            pl-0
+            px-1
+            py-2;
 
-			&:hover {
-				@apply
-				bg-cf-base
-				text-white
-				pl-2;
-			}
-		}
+            &:hover {
+                @apply
+                bg-cf-base
+                text-white
+                pl-2;
+            }
+        }
 
-		table {
-			font-family: RobotoCondensed, Roboto;
-			@apply
-			border-collapse
-			font-light
-			text-sm;
+        table {
+            font-family: RobotoCondensed, Roboto;
+            @apply
+            border-collapse
+            font-light
+            text-sm;
 
-			thead {
-				td {
-					@apply
-					px-1
-					py-2
-					border-b-gray-300;
-				}
-			}
+            thead {
+                td {
+                    @apply
+                    px-1
+                    py-2
+                    border-b-gray-300;
+                }
+            }
 
-			tbody {
-				td {
-					@apply
-					px-1
-					py-2
-					border-b-gray-200;
-				}
-			}
-		}
-	}
+            tbody {
+                td {
+                    @apply
+                    px-1
+                    py-2
+                    border-b-gray-200;
+                }
+            }
+        }
+    }
 }
 
 .fit-content {
-	@apply w-fit;
+    @apply w-fit;
 }

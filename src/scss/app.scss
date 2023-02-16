@@ -67,8 +67,6 @@ body {
 			cursor-pointer
 			transition
 			text-cf-base;
-			left: calc(100% - 24px);
-			bottom: calc(100% - 24px);
 
 			&:hover {
 				@apply

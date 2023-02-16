@@ -5,10 +5,12 @@ import CopyToClipboard from '@js/components/markdown/copyToClipboard';
 
 const Pre = function ({ children }) {
   return (
-    <pre>
-      <CopyToClipboard code={children} />
-      {children}
-    </pre>
+    <div className="relative">
+      <pre>{children}</pre>
+      <div className="absolute top-3 right-4">
+        <CopyToClipboard code={children} />
+      </div>
+    </div>
   );
 };
 Pre.propTypes = {

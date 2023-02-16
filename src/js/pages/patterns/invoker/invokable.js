@@ -4,6 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
+import Pre from '@js/components/markdown/pre';
 import invokable from '@docs/patterns/invoker/invokable.md';
 
 export default function () {
@@ -11,9 +12,10 @@ export default function () {
     <>
       <ActionBar title="Invoker" downloadUrl="/assets/downloads/patterns/invoker/invokable.php" downloadFile="invokable.php" />
       <div className="parser">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]} children={invokable} />
+        <ReactMarkdown rehypePlugins={[rehypeRaw]} children={invokable} components={{ pre: Pre }} />
       </div>
       <ActionBar />
+
     </>
   );
 }

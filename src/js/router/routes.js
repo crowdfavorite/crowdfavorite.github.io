@@ -111,6 +111,7 @@ const routes = [
   },
   {
     key: 'laravel_api_controllers',
+    path: '/laravel/api/controllers',
     component: React.lazy(() => import('@js/pages/laravel/api/controllers')),
   },
   {

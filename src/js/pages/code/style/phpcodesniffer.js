@@ -5,13 +5,18 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
 import phpcodesniffer from '@docs/code/style/phpcodesniffer.md';
+import Pre from '@js/components/markdown/pre';
 
 export default function () {
   return (
     <>
       <ActionBar title="Php CS Sniffer" />
       <div className="parser">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]} children={phpcodesniffer} />
+        <ReactMarkdown
+          rehypePlugins={[rehypeRaw]}
+          children={phpcodesniffer}
+          components={{ pre: Pre }}
+        />
       </div>
       <ActionBar />
     </>

@@ -5,13 +5,18 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
 import routes from '@docs/laravel/api/routes.md';
+import Pre from '@js/components/markdown/pre';
 
 export default function () {
   return (
     <>
       <ActionBar title="Api routes" nextUrl="/laravel/api/controllers" />
       <div className="parser">
-        <ReactMarkdown rehypePlugins={[rehypeRaw]} children={routes} />
+        <ReactMarkdown
+          rehypePlugins={[rehypeRaw]}
+          children={routes}
+          components={{ pre: Pre }}
+        />
       </div>
       <ActionBar nextUrl="/laravel/api/controllers" />
     </>

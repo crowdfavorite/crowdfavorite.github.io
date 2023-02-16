@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import ActionBar from '@js/components/actionBar';
 import introduction from '@docs/patterns/invoker/introduction.md';
-import Pre from '@js/components/pre';
+import Pre from '@js/components/markdown/pre';
 
 export default function () {
   return (

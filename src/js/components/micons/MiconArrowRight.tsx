@@ -9,7 +9,7 @@ interface Props {
   title?: string;
 }
 
-const ArrowRight = ({ size = '24px', className = '', title = '' }: Props): JSX.Element => (
+const MiconArrowRight = ({ size = '24px', className = '', title = '' }: Props): JSX.Element => (
   <Base
     size={size}
     className={className}
@@ -23,4 +23,4 @@ const ArrowRight = ({ size = '24px', className = '', title = '' }: Props): JSX.E
   />
 );
 
-export default ArrowRight;
+export default MiconArrowRight;

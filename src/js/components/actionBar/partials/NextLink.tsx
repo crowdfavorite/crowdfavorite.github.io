@@ -2,7 +2,7 @@
 /* eslint-disable react/require-default-props */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ArrowRight from '@js/components/micons/ArrowRight';
+import MiconArrowRight from '@js/components/micons/MiconArrowRight';
 
 interface Props {
   url: string;
@@ -10,7 +10,7 @@ interface Props {
 
 const NextLink = ({ url }: Props): JSX.Element => (
   <Link className="action-link" to={url}>
-    <ArrowRight title="Next" />
+    <MiconArrowRight title="Next" />
     <span className="action-label">Next</span>
   </Link>
 );

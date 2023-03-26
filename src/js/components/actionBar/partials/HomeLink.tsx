@@ -2,7 +2,7 @@
 /* eslint-disable react/require-default-props */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MiconHome from '@js/components/micons/Home';
+import MiconHome from '@js/components/micons/MiconHome';
 
 const HomeLink = () => (
   <Link to="/" className="action-link">

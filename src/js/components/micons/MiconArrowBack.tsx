@@ -9,15 +9,18 @@ interface Props {
   title?: string;
 }
 
-const Download = ({ size = '24px', className = '', title = '' }: Props): JSX.Element => (
+const MiconArrowBack = ({ size = '', className = '', title = '' }: Props): JSX.Element => (
   <Base
     size={size}
     className={className}
     title={title}
     path={(
-      <path d="M6 20q-.825 0-1.412-.587Q4 18.825 4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413Q18.825 20 18 20Zm6-4-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11Z" />
-    )}
+      <>
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+      </>
+          )}
   />
 );
 
-export default Download;
+export default MiconArrowBack;

@@ -9,7 +9,7 @@ interface Props {
   title?: string;
 }
 
-const Copy = ({ size = '20px', className = '', title = 'Copy to clipboard' }: Props): JSX.Element => (
+const MiconCopy = ({ size = '20px', className = '', title = 'Copy to clipboard' }: Props): JSX.Element => (
   <Base
     size={size}
     className={className}
@@ -31,4 +31,4 @@ const Copy = ({ size = '20px', className = '', title = 'Copy to clipboard' }: Pr
   />
 );
 
-export default Copy;
+export default MiconCopy;

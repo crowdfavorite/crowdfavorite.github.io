@@ -9,7 +9,7 @@ interface Props {
   title?: string;
 }
 
-const Home = ({ size = '24px', className = '', title = '' }: Props): JSX.Element => (
+const MiconHome = ({ size = '24px', className = '', title = '' }: Props): JSX.Element => (
   <Base
     size={size}
     className={className}
@@ -20,4 +20,4 @@ const Home = ({ size = '24px', className = '', title = '' }: Props): JSX.Element
   />
 );
 
-export default Home;
+export default MiconHome;

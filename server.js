@@ -4,7 +4,7 @@ const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const config = require('./webpack.dev.js');
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 8000;
 
 const compiler = webpack(config);
 const server = new WebpackDevServer({
@@ -19,7 +19,7 @@ const server = new WebpackDevServer({
     writeToDisk: true,
   },
   compress: true,
-  port: 9000,
+  port: PORT,
 }, compiler);
 
 (async () => await server.start())();

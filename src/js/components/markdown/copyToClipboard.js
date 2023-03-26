@@ -1,7 +1,7 @@
 /* eslint-disable func-names */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Copy from '@js/components/micons/copy';
+import Copy from '@js/components/micons/Copy';
 
 const CopyToClipboard = function ({ code }) {
   const handleClick = () => navigator.clipboard.writeText(code[0].props.children[0]);

@@ -20,8 +20,8 @@
     "module": "esnext",
     "allowImportingTsExtensions": true,
     "paths": {
-      "@js/*": ["src/js/*"],
-      "@docs/*": ["src/docs/*"]
+      "@js/*": ["./src/js/*"],
+      "@docs/*": ["./src/docs/*"]
     }
   },
   "include": [

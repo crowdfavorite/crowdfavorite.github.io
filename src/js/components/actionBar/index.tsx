@@ -7,10 +7,10 @@ import NextLink from '@js/components/actionBar/partials/NextLink';
 import DownloadLink from '@js/components/actionBar/partials/DownloadLink';
 
 interface Props {
-  title: string;
-  downloadUrl: string;
-  downloadFile: string;
-  nextUrl: string;
+  title?: string;
+  downloadUrl?: string;
+  downloadFile?: string;
+  nextUrl?: string;
 }
 
 const Index = ({

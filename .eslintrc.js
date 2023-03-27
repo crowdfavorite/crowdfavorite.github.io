@@ -49,5 +49,6 @@ module.exports = {
       jsx: true,
       experimentalObjectRestSpread: true,
     },
+    project: ['tsconfig.json'],
   },
 };

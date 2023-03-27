@@ -13,6 +13,7 @@ const Pre = function ({ children }) {
     </div>
   );
 };
+
 Pre.propTypes = {
   children: PropTypes.arrayOf(PropTypes.element).isRequired,
 };

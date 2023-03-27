@@ -3,6 +3,7 @@ module.exports = {
     'airbnb',
     'plugin:import/react',
     'plugin:import/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   env: {
     es6: true,
@@ -14,12 +15,13 @@ module.exports = {
     document: true,
   },
   plugins: [
+    '@typescript-eslint',
     'react',
     'jsx-a11y',
     'import',
   ],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'react/jsx-props-no-spreading': 'off',
     'import/extensions': 0,
   },
@@ -32,6 +34,8 @@ module.exports = {
         extensions: [
           '.js',
           '.jsx',
+          '.ts',
+          '.tsx',
         ],
       },
     },
@@ -45,5 +49,6 @@ module.exports = {
       jsx: true,
       experimentalObjectRestSpread: true,
     },
+    project: ['tsconfig.json'],
   },
 };

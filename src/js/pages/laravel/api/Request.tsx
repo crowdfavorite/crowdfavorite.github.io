@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import request from '@docs/laravel/api/request.md';
 import Pre from '@js/components/markdown/pre';
 
-const Request = (): JSX.Element => (
+const Request: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Api request classes"

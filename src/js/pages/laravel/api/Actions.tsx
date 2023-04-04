@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/laravel/api/actions.md';
 import Pre from '@js/components/markdown/pre';
 
-const Actions = (): JSX.Element => (
+const Actions: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Api actions" />
     <div className="parser">

@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/wordpress/plugin/dependency.md';
 import Pre from '@js/components/markdown/pre';
 
-const Dependency = (): JSX.Element => (
+const Dependency: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Plugin"

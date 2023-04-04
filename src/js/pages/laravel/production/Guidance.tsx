@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/laravel/production/guidance.md';
 import Pre from '@js/components/markdown/pre';
 
-const Guidance = (): JSX.Element => (
+const Guidance: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Guidance" />
     <div className="parser">

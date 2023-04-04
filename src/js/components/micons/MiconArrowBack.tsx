@@ -9,7 +9,11 @@ interface Props {
   title?: string;
 }
 
-const MiconArrowBack = ({ size = '', className = '', title = '' }: Props): JSX.Element => (
+const MiconArrowBack: React.FC<Props> = ({
+  size = '24px',
+  className = '',
+  title = '',
+}): JSX.Element => (
   <Base
     size={size}
     className={className}

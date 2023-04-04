@@ -8,7 +8,7 @@ interface Props {
   downloadFile: string;
 }
 
-const DownloadLink = ({ downloadUrl, downloadFile }: Props): JSX.Element => (
+const DownloadLink: React.FC<Props> = ({ downloadUrl, downloadFile }): JSX.Element => (
   <a
     className="action-link download"
     href={`${process.env.APP_URL + downloadUrl}`}

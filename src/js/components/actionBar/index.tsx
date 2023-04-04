@@ -13,9 +13,9 @@ interface Props {
   nextUrl?: string;
 }
 
-const Index = ({
+const Index: React.FC<Props> = ({
   title, downloadUrl, downloadFile, nextUrl,
-}: Props): JSX.Element => (
+}): JSX.Element => (
   <div className="action-bar">
     {
         title

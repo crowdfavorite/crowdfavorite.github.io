@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/wordpress/plugin/logger/channels.md';
 import Pre from '@js/components/markdown/pre';
 
-const Channels = (): JSX.Element => (
+const Channels: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Plugin" />
     <div className="parser">

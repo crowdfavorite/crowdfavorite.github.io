@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/wordpress/plugin/structure.md';
 import Pre from '@js/components/markdown/pre';
 
-const Invoker = (): JSX.Element => (
+const Invoker: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Plugin"

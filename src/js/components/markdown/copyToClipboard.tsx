@@ -6,7 +6,7 @@ interface Props {
   code: React.ReactElement[];
 }
 
-const CopyToClipboard = ({ code }: Props): JSX.Element => {
+const CopyToClipboard: React.FC<Props> = ({ code }): JSX.Element => {
   const handleClick = () => navigator.clipboard.writeText(code[0].props.children[0]);
   return (
     <button type="button" onClick={handleClick} className="copy" title="Copy to clipboard">

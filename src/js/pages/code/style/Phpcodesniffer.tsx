@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/code/style/phpcodesniffer.md';
 import Pre from '@js/components/markdown/pre';
 
-const Phpcodesniffer = (): JSX.Element => (
+const Phpcodesniffer: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Php CS Sniffer" />
     <div className="parser">

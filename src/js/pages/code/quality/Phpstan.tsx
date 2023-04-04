@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/code/quality/phpstan.md';
 import Pre from '@js/components/markdown/pre';
 
-const Phpstan = (): JSX.Element => (
+const Phpstan: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="PhpStan" />
     <div className="parser">

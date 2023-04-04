@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/patterns/invoker/introduction.md';
 import Pre from '@js/components/markdown/pre.js';
 
-const Invoker = (): JSX.Element => (
+const Invoker: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Invoker"

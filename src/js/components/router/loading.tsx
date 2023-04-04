@@ -1,7 +1,7 @@
 /* eslint-disable func-names */
 import React from 'react';
 
-const Loading = function () {
+const Loading: React.FC = function (): JSX.Element {
   return (
     <p>loading</p>
   );

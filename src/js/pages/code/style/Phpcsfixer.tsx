@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/code/style/phpcsfixer.md';
 import Pre from '@js/components/markdown/pre';
 
-const Phpcsfixer = (): JSX.Element => (
+const Phpcsfixer: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Php CS Fixer" />
     <div className="parser">

@@ -8,7 +8,7 @@ interface Props {
   url: string;
 }
 
-const NextLink = ({ url }: Props): JSX.Element => (
+const NextLink: React.FC<Props> = ({ url }): JSX.Element => (
   <Link className="action-link" to={url}>
     <MiconArrowRight title="Next" />
     <span className="action-label">Next</span>

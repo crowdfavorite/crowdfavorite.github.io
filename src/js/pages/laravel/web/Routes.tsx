@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/laravel/web/routes.md';
 import Pre from '@js/components/markdown/pre';
 
-const Routes = (): JSX.Element => (
+const Routes: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Web routes"

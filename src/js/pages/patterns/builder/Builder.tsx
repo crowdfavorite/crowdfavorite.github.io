@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/patterns/builder/builder.md';
 import Pre from '@js/components/markdown/pre';
 
-const Introduction = (): JSX.Element => (
+const Introduction: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Builder"

@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/laravel/web/views.md';
 import Pre from '@js/components/markdown/pre';
 
-const Views = (): JSX.Element => (
+const Views: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Web views"

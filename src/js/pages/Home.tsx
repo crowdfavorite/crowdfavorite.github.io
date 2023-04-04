@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 
-const Home = (): JSX.Element => (
+const Home: React.FC = (): JSX.Element => (
   <>
     <div className="grid-col-3">
       <div>

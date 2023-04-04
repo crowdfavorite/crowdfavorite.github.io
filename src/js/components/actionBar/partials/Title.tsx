@@ -6,7 +6,7 @@ interface Props {
   title: string;
 }
 
-const Title = ({ title }: Props): JSX.Element => (
+const Title: React.FC<Props> = ({ title }): JSX.Element => (
   <h1>{title}</h1>
 );
 

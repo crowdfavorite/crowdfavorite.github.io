@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import MiconHome from '@js/components/micons/MiconHome';
 
-const HomeLink = () => (
+const HomeLink: React.FC = (): JSX.Element => (
   <Link to="/" className="action-link">
     <MiconHome title="home" size="20px" />
     <span className="action-label">Home</span>

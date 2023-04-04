@@ -9,12 +9,12 @@ interface Props {
   path: JSX.Element;
 }
 
-const Base = ({
+const Base: React.FC<Props> = ({
   size = '24px',
   className = '',
   title,
   path,
-}: Props): JSX.Element => {
+}): JSX.Element => {
   const baseClasses = `inline-block align-middle${className ? ` ${className}` : ''}`;
   return (
     <i

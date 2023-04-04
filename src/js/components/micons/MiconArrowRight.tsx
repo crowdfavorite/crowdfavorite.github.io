@@ -9,7 +9,11 @@ interface Props {
   title?: string;
 }
 
-const MiconArrowRight = ({ size = '24px', className = '', title = '' }: Props): JSX.Element => (
+const MiconArrowRight: React.FC<Props> = ({
+  size = '24px',
+  className = '',
+  title = '',
+}): JSX.Element => (
   <Base
     size={size}
     className={className}

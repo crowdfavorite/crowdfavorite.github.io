@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/laravel/development/requirement.md';
 import Pre from '@js/components/markdown/pre';
 
-const Requirement = (): JSX.Element => (
+const Requirement: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Requirement" />
     <div className="parser">

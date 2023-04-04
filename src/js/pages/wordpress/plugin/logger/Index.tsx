@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/wordpress/plugin/logger/index.md';
 import Pre from '@js/components/markdown/pre';
 
-const Index = (): JSX.Element => (
+const Index: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Plugin" />
     <div className="parser">

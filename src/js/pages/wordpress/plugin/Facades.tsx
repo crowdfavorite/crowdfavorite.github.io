@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/wordpress/plugin/facades.md';
 import Pre from '@js/components/markdown/pre';
 
-const Facades = (): JSX.Element => (
+const Facades: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Plugin"

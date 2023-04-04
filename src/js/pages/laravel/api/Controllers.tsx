@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/laravel/api/controllers.md';
 import Pre from '@js/components/markdown/pre';
 
-const Controllers = (): JSX.Element => (
+const Controllers: React.FC = (): JSX.Element => (
   <>
     <ActionBar
       title="Api controllers"

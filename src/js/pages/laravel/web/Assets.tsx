@@ -7,7 +7,7 @@ import ActionBar from '@js/components/actionBar';
 import markdown from '@docs/laravel/web/assets.md';
 import Pre from '@js/components/markdown/pre';
 
-const Assets = (): JSX.Element => (
+const Assets: React.FC = (): JSX.Element => (
   <>
     <ActionBar title="Web assets" />
     <div className="parser">

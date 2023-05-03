@@ -1,5 +1,6 @@
 /* eslint-disable func-names */
 /* eslint-disable react/no-array-index-key */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import {
   HashRouter as Router,
   Routes,
@@ -7,15 +8,15 @@ import {
 } from 'react-router-dom';
 import React, { Suspense } from 'react';
 import Loading from '@js/components/router/loading';
-import routes from '@js/router/routes';
+import routes from '@js/router/routes.ts';
+import { RouteProps } from './types';
 
-const routeComponents = routes
-  .map((route) => {
+const routeComponents: JSX.Element[] = routes
+  .map((route: RouteProps) => {
     if (route.children === undefined) {
       return (
         <Route
           key={route.key}
-          exact={route.exact}
           path={route.path}
           element={<route.component />}
         />
@@ -24,15 +25,13 @@ const routeComponents = routes
     return (
       <Route
         key={route.key}
-        exact={route.exact}
         path={route.path}
         element={<route.component />}
       >
         {
-          route.children.map((child, index) => (
+          route.children.map((child: RouteProps, index: number) => (
             <Route
               key={`${child.key}_${index}`}
-              exact={child.exact}
               path={child.path}
               element={<child.component />}
             />
@@ -42,7 +41,7 @@ const routeComponents = routes
     );
   });
 
-export default function () {
+export default function (): JSX.Element {
   return (
     <Router>
       <Suspense fallback={<Loading />}>

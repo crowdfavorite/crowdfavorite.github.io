@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
+import { RouteProps } from './types';
 
-const routes = [
+const routes: RouteProps[] = [
   {
     key: 'home',
-    exact: true,
     path: '/',
     component: React.lazy(() => import('@js/pages/Home')),
   },
